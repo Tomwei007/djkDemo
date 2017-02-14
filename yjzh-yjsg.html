@@ -1,0 +1,1675 @@
+<!DOCTYPE html>
+<!-- 
+Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.0.2
+Version: 1.5.4
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+	<meta charset="utf-8" />
+	<title>安全环保应急监管平台</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+	<meta name="MobileOptimized" content="320">
+	<!-- BEGIN GLOBAL MANDATORY STYLES -->          
+	<link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+	<!-- END GLOBAL MANDATORY STYLES -->
+	<!-- BEGIN PAGE LEVEL STYLES -->
+	<link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap-fileupload/bootstrap-fileupload.css" />
+	<!-- END PAGE LEVEL STYLES -->
+	<!-- BEGIN THEME STYLES --> 
+	<link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/css/plugins.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+	<link href="assets/css/pages/profile.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/custom.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/css/pages/timeline.css" rel="stylesheet" type="text/css"/>
+	<!-- END THEME STYLES -->
+	<link rel="shortcut icon" href="assets/img/logo-m.png" />
+	<link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap-fileupload/bootstrap-fileupload.css" />
+	<style>
+			#tab_1_3>.table-bordered > #tab_1_3>thead > tr > th, .table-bordered > #tab_1_3>tbody > tr > th, .table-bordered > #tab_1_3>tfoot > tr > th, .#tab_1_3>#tab_1_3>table-bordered > #tab_1_3>thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    					border: 0px solid #ddd;
+			}
+			.table-bordered {
+   					 border: 0px solid #ddd;
+			}
+			.portfolio-btn span {
+    					color: #fff;
+    					font-size: 18px;
+    					font-weight: initial;
+			}
+			.timeline > li .timeline-time span.time {
+    					font-size: 28px;
+    					font-weight: 400;
+    					line-height: 38px;
+			}
+			.timeline > li .timeline-time {
+    					width: 12%;
+			}
+			.timeline > li .timeline-body {
+    					margin: 0 0 15px 28%;
+			}
+			.sale-summary li {
+    					padding: 0;
+			}
+	</style>
+    
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="page-header-fixed page-sidebar-fixed ">
+	<!-- BEGIN HEADER -->   
+	<div class="header navbar navbar-inverse navbar-fixed-top">
+		<!-- BEGIN TOP NAVIGATION BAR -->
+		<div class="header-inner">
+			<!-- BEGIN LOGO -->  
+			<div class="navbar-brand" href="">
+            <img src="assets/img/logo_1.png" alt="logo" class="img-responsive" /><img src="assets/img/logo_3.png" alt="logo" class="img-responsive1" /></div><div class="navbar-brand" href=" "></div><a class="navbar-brand" href=" ">
+            <!-- END LOGO -->
+			<!-- BEGIN RESPONSIVE MENU TOGGLER --> 
+			<a href="javascript:;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<img src="assets/img/menu-toggler.png" alt="" />
+			</a> 
+			<!-- END RESPONSIVE MENU TOGGLER -->
+			<!-- BEGIN TOP NAVIGATION MENU -->
+			<ul class="nav navbar-nav pull-right">
+				<!-- BEGIN NOTIFICATION DROPDOWN -->
+				<li class="dropdown" id="header_notification_bar">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"data-close-others="true">
+						<i class="fa fa-bell"></i>
+						<span class="badge">6</span>
+					</a>
+					<ul class="dropdown-menu extended notification">
+						<li>
+							<p>您有14项新通知/消息</p>
+						</li>
+						<li>
+							<ul class="dropdown-menu-list scroller" style="height: 250px;">
+								<li>  
+									<a href="#">
+									<span class="label label-sm label-icon label-success"><i class="fa fa-plus"></i></span>
+									新的隐患排查巡检计划制定. 
+									<span class="time">刚刚</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="label label-sm label-icon label-danger"><i class="fa fa-bolt"></i></span>
+									青钢 #12 容器压力预警. 
+									<span class="time">15 分钟</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="label label-sm label-icon label-warning"><i class="fa fa-bell-o"></i></span>
+									青钢 #2 容器压力异常.
+									<span class="time">22 分钟</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="label label-sm label-icon label-info"><i class="fa fa-bullhorn"></i></span>
+									青钢 网络负载过载.
+									<span class="time">40 分钟</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="label label-sm label-icon label-info"><i class="fa fa-bolt"></i></span>
+									海晶监测数据恢复 68%. 
+									<span class="time">2 小时</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="label label-sm label-icon label-danger"><i class="fa fa-bolt"></i></span>
+									海晶监测数据接收错误.
+									<span class="time">5 小时</span>
+									</a>
+								</li>
+								
+							</ul>
+						</li>
+						<li class="external">   
+							<a href="#">查看所有的通知/消息 <i class="m-icon-swapright"></i></a>
+						</li>
+					</ul>
+				</li>
+				<!-- END NOTIFICATION DROPDOWN -->
+
+				<!-- BEGIN TODO DROPDOWN -->
+				<li class="dropdown" id="header_task_bar">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+					<i class="fa fa-tasks"></i>
+					<span class="badge">5</span>
+					</a>
+					<ul class="dropdown-menu extended tasks">
+						<li>
+							<p>您有12项正在进行的任务</p>
+						</li>
+						<li>
+							<ul class="dropdown-menu-list scroller" style="height: 250px;">
+								<li>  
+									<a href="#">
+									<span class="task">
+									<span class="desc">DJK-YHPC-00000002整改工程</span>
+									<span class="percent">30%</span>
+									</span>
+									<span class="progress">
+									<span style="width: 40%;" class="progress-bar progress-bar-success" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only">40% Complete</span>
+									</span>
+									</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="task">
+									<span class="desc">安全生产许可证检查活动</span>
+									<span class="percent">65%</span>
+									</span>
+									<span class="progress progress-striped">
+									<span style="width: 65%;" class="progress-bar progress-bar-danger" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only">65% Complete</span>
+									</span>
+									</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="task">
+									<span class="desc">下发压力容器整改</span>
+									<span class="percent">98%</span>
+									</span>
+									<span class="progress">
+									<span style="width: 98%;" class="progress-bar progress-bar-success" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only">98% Complete</span>
+									</span>
+									</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="task">
+									<span class="desc">DJK-YHPC-00000001整改验收</span>
+									<span class="percent">10%</span>
+									</span>
+									<span class="progress progress-striped">
+									<span style="width: 10%;" class="progress-bar progress-bar-warning" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only">10% Complete</span>
+									</span>
+									</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="task">
+									<span class="desc">青钢3高线现场检查</span>
+									<span class="percent">58%</span>
+									</span>
+									<span class="progress progress-striped">
+									<span style="width: 58%;" class="progress-bar progress-bar-info" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only">58% Complete</span>
+									</span>
+									</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="task">
+									<span class="desc">压力管道巡检</span>
+									<span class="percent">85%</span>
+									</span>
+									<span class="progress progress-striped">
+									<span style="width: 85%;" class="progress-bar progress-bar-success" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only">85% Complete</span>
+									</span>
+									</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="task">
+									<span class="desc">压力容器定期巡检</span>
+									<span class="percent">18%</span>
+									</span>
+									<span class="progress progress-striped">
+									<span style="width: 18%;" class="progress-bar progress-bar-important" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only">18% Complete</span>
+									</span>
+									</span>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="external">   
+							<a href="#">查看所有任务 <i class="m-icon-swapright"></i></a>
+						</li>
+					</ul>
+				</li>
+				<!-- END TODO DROPDOWN -->
+				<!-- BEGIN USER LOGIN DROPDOWN -->
+				<li class="dropdown user">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+					<img alt="" src="assets/img/avatar1_small.jpg"/>
+					<span class="username">张万里</span>
+					<i class="fa fa-angle-down"></i>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="#"><i class="fa fa-user"></i> 我的资料</a></li>
+						<li><a href="wdrc.html"><i class="fa fa-calendar"></i> 我的日程</a></li>
+						<li><a href=""><i class="fa fa-bell"></i>我的消息 <span class="badge badge-danger">3</span></a></li>
+						<li><a href="#"><i class="fa fa-tasks"></i> 我的任务 <span class="badge badge-success">7</span></a></li>
+						<li class="divider"></li>
+						<li><a href="javascript:;" id="trigger_fullscreen"><i class="fa fa-arrows-alt"></i> 全屏</a></li>
+						<li><a href=""><i class="fa fa-lock"></i> 锁屏</a></li>
+						<li><a href=""><i class="fa fa-key"></i> 注销</a></li>
+					</ul>
+				</li>
+				<!-- END USER LOGIN DROPDOWN -->
+		  </ul>
+			<!-- END TOP NAVIGATION MENU -->
+	  </div>
+		<!-- END TOP NAVIGATION BAR -->
+	</div>
+	<!-- END HEADER -->
+	<div class="clearfix"></div>
+	<!-- BEGIN CONTAINER -->
+	<div class="page-container">
+		<!-- BEGIN SIDEBAR -->
+		<div class="page-sidebar navbar-collapse collapse ">
+			<!-- BEGIN SIDEBAR MENU -->        
+			<ul class="page-sidebar-menu">
+				<li>
+					<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+					<div class="sidebar-toggler hidden-phone"></div>
+					<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+				</li>
+				<li>
+					<!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
+					<form class="sidebar-search" action="extra_search.html" method="POST">
+						<div class="form-container">
+							<div class="input-box">
+								<a href="javascript:;" class="remove"></a>
+								<input type="text" placeholder="搜索..."/>
+								<input type="button" class="submit" value=" "/>
+							</div>
+						</div>
+					</form>
+					<!-- END RESPONSIVE QUICK SEARCH FORM -->
+				</li>
+				
+				<li class="start">
+					<a class="active" href="javascript:;">
+					<i class="fa fa-tachometer"></i> 
+					<span class="title">个人中心</span>
+					<span class="arrow "></span>
+					</a>
+					
+				</li>	
+				<li>
+					<a class="active" href="javascript:;">
+					<i class="fa fa-hospital-o"></i> 
+					<span class="title">一企一档</span>
+					<span class="arrow "></span>
+					</a>
+				</li>
+				<li>
+					<a class="active" href="javascript:;">
+					<i class="fa fa-file-excel-o"></i> 
+					<span class="title">公文管理</span>
+					<span class="arrow "></span>
+					</a>
+					
+				</li>					
+				<li class="">
+					<a class="" href="javascript:;">
+					<i class="fa fa-calendar-check-o"></i> 
+					<span class="title">隐患排查</span>
+					<span class="arrow "></span>
+					</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="yhpc-yd.html"><i class="fa fa-map-signs"></i>
+							隐患排查向导
+							<span></span>
+							</a>
+						</li>
+						<li>
+							<a href="yhpc-aqxj.html">
+							<i class="fa fa-stethoscope"></i> 
+							安全巡检
+							<span ></span>
+							</a>							
+						</li>
+						<li>
+							<a href="yhpc-yhzg.html"><i class="fa fa-wrench"></i>
+							隐患整改
+							</a>
+						</li>
+						<li class="open">
+							<a href="yhpc-fcys.html"><i class="fa fa-gavel"></i>
+							复查/验收
+							</a>
+						</li>
+						<li>
+							<a href="yhpc-tzd.html"><i class="fa fa-files-o"></i>
+							通知单
+							</a>
+						</li>
+					</ul>
+				</li>
+
+				<li class="">
+					<a class="" href="javascript:;">
+					<i class="fa fa-eye"></i> 
+					<span class="title">作业监察</span>
+					<span class="arrow open"></span>
+					</a>
+				                    <ul class="sub-menu">
+				                    	<li>
+				                        	<a href="zyjc-yd.html"><i class="fa fa-map-signs"></i>
+				                            	作业监察向导
+				                            </a>
+				                        </li>
+				                        <li class="">
+				                        	<a href="zyjd-zybb-zylb.html"><i class="fa fa-wrench"></i>
+				                            	作业报备
+				                                <span class="badge badge-success">7</span>
+				                            </a>
+				                        </li>
+				                        
+				                        <li>
+				                        	<a href="zyjc-zyyslb.html"><i class="fa fa-gavel"></i>
+				                            	复查/验收
+				                                <span class="badge badge-warning">10</span>
+				                            </a>
+				                        </li>
+				                        
+				                    </ul>
+				</li>		
+				<li class="active">
+					<a class="active" href="javascript:;">
+					<i class="fa fa-magic"></i> 
+					<span class="title">应急指挥</span>
+					<span class="arrow open"></span>
+					</a>
+                    <ul class="sub-menu">
+                    	<li>
+                            <a href="yjzh-yd.html"><i class="fa fa-map-signs"></i>
+                            应急指挥向导
+                            </a>
+                        </li>
+                        <li >
+                            <a href="yjzh-yjjj.html"><i class="fa fa-bell"></i>
+                            应急接警
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="yjzh-yjbz.html"><i class="fa fa-book"></i>
+                            应急预案
+                            </a>
+                        </li>
+                        <li>
+                            <a href="yjzh-yjzy.html"><i class="fa fa-cubes"></i>
+                            应急资源
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="#"><i class="fa fa-ambulance"></i>
+                            应急救援
+                            <span class="arrow open"></span>
+                            </a>
+                            
+                            <ul class="sub-menu">
+                            	<li ><a href="yjzh-yjxy.html"><i class="fa fa-pied-piper-alt"></i> 应急响应</a></li>
+                            	<li ><a href="yjzh-yjjy.html"><i class="fa fa-comment"></i> 应急处置</a></li>
+                                <li class="active"><a href="yjzh-yjsg.html"><i class="fa fa-paperclip"></i> 救援记录</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+				</li>
+				<li class="">
+					<a class="" href="javascript:;">
+					<i class="fa fa-exclamation-triangle"></i> 
+					<span class="title">危险源监测</span>
+					<span class="arrow "></span>
+					</a>
+                    <ul  style="display: none;"  class="sub-menu">
+				                    	<li class="">
+				                        		<a href="zdwxyjz-yd.html"><i class="fa fa-map-signs"></i>
+				                            	危险源检测向导
+				                            	</a>
+				                        </li>
+				                        <li>
+				                        		<a href="#"><i class="fa fa-wrench"></i>
+				                            	重大危险源台账
+				                                		<span class="badge badge-success">7</span>
+				                            	</a>
+				                        </li>
+				                        
+				                        <li >
+				                        		<a href="zdwxyjz-tbjc.html"><i class="fa fa-bar-chart"></i>
+				                            	在线图表展示
+				                                	<span class="badge badge-warning">10</span>
+				                            	</a>
+				                        </li>
+                                        <li>
+				                        		<a href="zdwxyjz.html"><i class="fa fa-eye"></i>
+				                            	在线GIS展示
+				                                	<span class="badge badge-warning">10</span>
+				                            	</a>
+				                        </li>
+				                        
+				             </ul>
+				</li>
+				<li>
+					<a class="active" href="javascript:;">
+					<i class="fa fa-area-chart "></i> 
+					<span class="title">统计分析</span>
+					<span class="arrow "></span>
+					</a>
+				</li>					
+				<li>
+					<a class="active" href="javascript:;">
+					<i class="fa fa-cogs"></i> 
+					<span class="title">平台设置</span>
+					<span class="arrow "></span>
+					</a>
+					
+				</li>				
+					
+
+			</ul>
+			<!-- END SIDEBAR MENU -->
+		</div>
+		<!-- END SIDEBAR -->
+		</div>
+		<!-- END SIDEBAR -->
+		<!-- BEGIN PAGE -->
+		<div class="page-content">
+			<!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->               
+			<div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+							<h4 class="modal-title">Modal title</h4>
+						</div>
+						<div class="modal-body">
+							Widget settings form goes here
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn blue">Save changes</button>
+							<button type="button" class="btn default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+					<!-- /.modal-content -->
+				</div>
+				<!-- /.modal-dialog -->
+			</div>
+			<!-- /.modal -->
+			<!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+			<!-- BEGIN STYLE CUSTOMIZER -->
+			<div class="theme-panel hidden-xs hidden-sm">
+				<div class="toggler"></div>
+				<div class="toggler-close"></div>
+				<div class="theme-options">
+					<div class="theme-option theme-colors clearfix">
+						<span>主题颜色</span>
+						<ul>
+							<li class="color-black current color-default" data-style="default"></li>
+							<li class="color-blue" data-style="blue"></li>
+							<li class="color-brown" data-style="brown"></li>
+							<li class="color-purple" data-style="purple"></li>
+							<li class="color-grey" data-style="grey"></li>
+							<li class="color-white color-light" data-style="light"></li>
+						</ul>
+					</div>
+					<div class="theme-option">
+						<span>布局</span>
+						<select class="layout-option form-control input-small">
+							<option value="fluid" selected="selected">不固定模式</option>
+							<option value="boxed">盒子模型</option>
+						</select>
+					</div>
+					<div class="theme-option">
+						<span>头部</span>
+						<select class="header-option form-control input-small">
+							<option value="fixed" selected="selected">固定</option>
+							<option value="default">默认</option>
+						</select>
+					</div>
+					<div class="theme-option">
+						<span>侧边栏</span>
+						<select class="sidebar-option form-control input-small">
+							<option value="fixed">固定</option>
+							<option value="default" selected="selected">默认</option>
+						</select>
+					</div>
+
+				   <div class="theme-option">
+						<span>底部</span>
+						<select class="footer-option form-control input-small">
+							<option value="default">默认</option>
+							<option value="fixed" selected="selected">固定</option>
+						</select>
+					</div>
+				   </div>
+			</div>
+			<!-- END BEGIN STYLE CUSTOMIZER -->  
+			<!-- BEGIN PAGE HEADER-->
+			<div class="row">
+				<div class="col-md-12">
+					<!-- BEGIN PAGE TITLE & BREADCRUMB-->
+					<h3 class="page-title">
+						救援记录 <small>Accident information</small>
+					</h3>
+                     <div class="row" style="background:#F8F8F8 ;height: 40px;">
+                    	<div class="col-md-12">
+                        	<div class="clearfix pull-right" style="margin-top: 3px;">
+                                <a href="#" class="btn btn-sm purple"><i class="fa fa-file-o"></i> 保存 </a>
+								
+                                <div class="btn-group">
+									<button type="button" class="btn btn-sm green"><i class="fa fa-folder"></i> 导出</button>
+									<button type="button" class="btn btn-sm green dropdown-toggle" data-toggle="dropdown"><i class="fa fa-angle-down"></i></button>
+									<ul class="dropdown-menu" role="menu">
+										<li><a href="#"><i class="fa fa-file-pdf-o fa-3x"></i> PDF</a></li>
+										<li><a href="#"><i class="fa fa-file-word-o"></i> WORD</a></li>
+										<li><a href="#"><i class="fa fa-file-excel-o"></i> EXCEL</a></li>
+										
+									</ul>
+								</div>
+                                <a href="#" class="btn btn-sm red"><i class="fa fa-trash"></i> 删除</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+		<!-- END PAGE TITLE & BREADCRUMB-->
+                    <div class="row">
+                    	<div class="col-md-12">
+                    		<!-- BEGIN PAGE CONTENT-->
+			<div class="row profile">
+				<div class="col-md-12">
+					<!--BEGIN TABS-->
+					<div class="tabbable tabbable-custom tabbable-full-width">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab_1_1" data-toggle="tab">概要信息</a></li>
+							<li><a href="#tab_1_3" data-toggle="tab">投入资源</a></li>
+							<li><a href="#tab_1_4" data-toggle="tab">救援过程</a></li>
+							<li><a href="#tab_1_6" data-toggle="tab">事故调查与分析</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab_1_1">
+								<div class="row">
+									<div class="col-md-3">
+										<ul class="list-unstyled profile-nav">
+											<li><img src="assets/img/profile/profile-img.png" class="img-responsive" alt="" /> 
+												<a href="#" class="profile-edit">edit</a>
+											</li>
+											<li><a href="#">&nbsp;</a></li>
+											<!-- <li><a href="#">Messages <span>3</span></a></li>
+											<li><a href="#">Friends</a></li>
+											<li><a href="#">Settings</a></li> -->
+										</ul>
+									</div>
+									<div class="col-md-9">
+										<div class="row">
+											<div class="col-md-8 profile-info">
+												<h4>青钢3高线3#加热炉气体置换爆炸</h4>
+												<p style="color:#888;">2015年10月15日下午14：30分，由中冶东方工程技术有限公司总承包，正在施工中的董家口青钢加热炉气体置换时，发生爆燃事故，造成1人死亡，1人重伤，5人轻伤的安全事故。
+												<a><div  style="margin-top: -6px;">展开详细</div></a></p>
+												<ul class="list-inline">
+													<li><i class="fa fa-map-marker"></i> 化工A区</li>
+													<li><i class="fa fa-star"></i></i>IV级</li>
+													<li><i class="fa fa-fire"></i>爆炸</li>
+													<li><i class="fa fa-calendar"></i>2015/10/15 14:30</li>
+													<li><i class="fa fa-exclamation-circle"></i>突发性</li>
+												</ul>
+											</div>
+											<!--end col-md-8-->
+											<div class="col-md-4" style="margin-bottom: -44px;">
+												<div class="portlet sale-summary">
+													<div class="portlet-title">
+														<div class="caption">损失/伤害</div>
+														<div class="tools">
+															<a class="reload" href="javascript:;"></a>
+														</div>
+													</div>
+													<div class="portlet-body">
+														<ul class="list-unstyled">
+															<li>
+																<span class="sale-info">死亡 <i class="fa fa-img-up"></i></span> 
+																<span class="sale-num">1人</span>
+															</li>
+															<li>
+																<span class="sale-info">重伤 <i class="fa fa-img-down"></i></span> 
+																<span class="sale-num">1人</span>
+															</li>
+															<li>
+																<span class="sale-info">轻伤</span> 
+																<span class="sale-num">5人</span>
+															</li>
+															<li>
+																<span class="sale-info">失踪</span> 
+																<span class="sale-num">0人</span>
+															</li>
+															<li>
+																<span class="sale-info">经济损失</span> 
+																<span class="sale-num">￥12000.00</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<!--end col-md-4-->
+										</div>
+										<!--end row-->
+										<div class="tabbable tabbable-custom tabbable-custom-profile">
+											<ul class="nav nav-tabs">
+												<li class="active"><a href="#tab_1_11" data-toggle="tab">处理结果</a></li>
+												<li ><a href="#tab_1_22" data-toggle="tab">死亡人员名单</a></li>
+												<li ><a href="#tab_1_23" data-toggle="tab">受伤人员名单及后期救治情况</a></li>
+
+											</ul>
+											<div class="tab-content">
+												<div class="tab-pane active" id="tab_1_11">
+													<div class="portlet-body">
+														<table class="table table-striped table-bordered table-advance table-hover">
+															<thead>
+																<tr>
+																	<th><i class="fa fa-user"></i> 姓名</th>
+																	<th class="hidden-xs"><i class="fa fa-heart"></i> 年龄</th>
+																	<th><i class="fa fa-bookmark"></i> 职务</th>
+																	<th><i class="fa fa-info-circle"></i> 处理信息</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td><a href="#">张友青</a></td>
+																	<td class="hidden-xs">42</td>
+																	<td>检查员</td>
+																	<td><a class="btn default btn-xs blue-stripe" href="#">处理完毕</a></td>
+																</tr>
+																<tr>
+																	<td>
+																		<a href="#">
+																		王  俊
+																		</a>  
+																	</td>
+																	<td class="hidden-xs">46</td>
+																	<td>现场施工员</td>
+																	<td><a class="btn default btn-xs blue-stripe" href="#">处理完毕</a></td>
+																</tr>
+																<tr>
+																	<td>
+																		<a href="#">
+																		王立行
+																		</a>
+																	</td>
+																	<td class="hidden-xs">39</td>
+																	<td>现场监督员</td>
+																	<td><a class="btn default btn-xs green-stripe" href="#">正在处理中</a></td>
+																</tr>
+																<tr>
+																	<td>
+																		<a href="#">
+																		姚宝祥
+																		</a>
+																	</td>
+																	<td class="hidden-xs">44</td>
+																	<td>现场施工员</td>
+																	<td><a class="btn default btn-xs green-stripe" href="#">正在处理中</a></td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+												<!--tab-pane-->
+												<div class="tab-pane" id="tab_1_22">
+													<div class="tab-pane active" id="tab_1_1_1">
+														<div class="portlet-body">
+														<table class="table table-striped table-bordered table-advance table-hover">
+															<thead>
+																<tr>
+																	<th><i class="fa fa-user"></i> 姓名</th>
+																	<th><i class="fa fa-heart"></i> 年龄</th>
+																	<th class="hidden-xs"><i class="fa fa-credit-card"></i> 身份证号</th>
+																	<th class="hidden-xs"><i class="fa fa-medkit"></i> 受伤情况</th>
+																	<th><i class="fa fa-bookmark"></i> 职务</th>
+																	<th><i class="fa fa-info-circle"></i> 处理信息</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td><a href="#">匡乐晨</a></td>
+																	<td><a href="#">45</a></td>
+																	<td class="hidden-xs">35050219700819157X</td>
+																	<td>死亡</td>
+																	<td>现场施工员</td>
+																	<td><a class="btn default btn-xs blue-stripe" href="#">处理完毕</a></td>
+																</tr>
+															</tbody>
+														</table>
+													</div>	
+													</div>
+												</div>
+												<div class="tab-pane" id="tab_1_23">
+													<div class="tab-pane active" id="tab_1_1_23">
+														<div class="portlet-body">
+														<table class="table table-striped table-bordered table-advance table-hover">
+															<thead>
+																<tr>
+																	<th><i class="fa fa-user"></i> 姓名</th>
+																	<th><i class="fa fa-heart"></i> 年龄</th>
+																	<th class="hidden-xs"><i class="fa fa-credit-card"></i> 身份证号</th>
+																	<th class="hidden-xs"><i class="fa fa-medkit"></i> 受伤情况</th>
+																	<th><i class="fa fa-bookmark"></i> 职务</th>
+																	<th><i class="fa fa-info-circle"></i> 处理信息</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td><a href="#">田新华</a></td>
+																	<td><a href="#">37</a></td>
+																	<td class="hidden-xs">130283197802108797</td>
+																	<td>轻伤</td>
+																	<td>检查员</td>
+																	<td><a class="btn default btn-xs blue-stripe" href="#">处理完毕</a></td>
+																</tr>
+																<tr>
+																	<td>
+																		<a href="#">
+																		许嘉力
+																		</a>  
+																	</td>
+																	<td><a href="#">39</a></td>
+																	<td class="hidden-xs">150526197612157390</td>
+																	<td>轻伤</td>
+																	<td>现场施工员</td>
+																	<td><a class="btn default btn-xs blue-stripe" href="#">处理完毕</a></td>
+																</tr>
+																<tr>
+																	<td>
+																		<a href="#">
+																		党超南
+																		</a>
+																	</td>
+																	<td>
+																		<a href="#">
+																		40
+																		</a>
+																	</td>
+																	<td class="hidden-xs">230506197502218796</td>
+																	<td>轻伤</td>
+																	<td>现场监督员</td>
+																	<td><a class="btn default btn-xs blue-stripe" href="#">处理完毕</a></td>
+																</tr>
+																<tr>
+																	<td>
+																		<a href="#">
+																		黄仕清
+																		</a>
+																	</td>
+																	<td>
+																		<a href="#">
+																		43
+																		</a>
+																	</td>
+																	<td class="hidden-xs">621001197209022016</td>
+																	<td>轻伤</td>
+																	<td>现场施工员</td>
+																	<td><a class="btn default btn-xs blue-stripe" href="#">处理完毕</a></td>
+																</tr>
+																<tr>
+																	<td>
+																		<a href="#">
+																		孔宏恒
+																		</a>
+																	</td>
+																	<td>
+																		<a href="#">
+																		43
+																		</a>
+																	</td>
+																	<td class="hidden-xs">330921172508115372</td>
+																	<td>轻伤</td>
+																	<td>检查员</td>
+																	<td><a class="btn default btn-xs blue-stripe" href="#">处理完毕</a></td>
+																</tr>
+																<tr>
+																	<td>
+																		<a href="#">
+																		金玉嘉
+																		</a>
+																	</td>
+																	<td>
+																		<a href="#">
+																		45
+																		</a>
+																	</td>
+																	<td class="hidden-xs">410622197003068532</td>
+																	<td>重伤</td>
+																	<td>现场施工员</td>
+																	<td><a class="btn default btn-xs blue-stripe" href="#">处理完毕</a></td>
+																</tr>
+															</tbody>
+														</table>
+													</div>	
+													</div>
+												</div>
+												<!--tab-pane-->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--tab_1_2-->
+							<div class="tab-pane" id="tab_1_3">
+								<div class="row portfolio-block" style="line-height:22px;">
+									<div class="col-md-2"  style="margin-top: 0px;">
+										<img src="assets/img/zhuanjia.jpg" class="img-responsive">
+									</div>
+									<div class="col-md-8"  style="margin-bottom: -12px; margin-top:10px;padding-right: 0;padding-left: 0;">
+										<table class="table table-hover table-striped table-bordered" style="border-right:1px solid #e5eff6;border-left:1px solid #e5eff6;">
+												<tbody>
+													<tr style="border:1px solid #e5eff6;">
+														<th>姓名</th>
+														<th>专业</th>
+														<th>职称</th>
+														<th>研究方向</th>
+														<th>工作单位</th>
+													</tr>
+													<tr>
+														<td>吴季怀</td>
+														<td>材料学</td>
+														<td>研究员</td>
+														<td>功能高分子材料</td>
+														<td>中国新材料研究所</td>
+													</tr>
+													<tr>
+														<td>邓新根</td>
+														<td>高分子化合物</td>
+														<td>教授</td>
+														<td>聚合物复合材料</td>
+														<td>中国新材料研究所</td>
+													</tr>
+													<tr>
+														<td>任天然</td>
+														<td>高分子化学</td>
+														<td>研究员</td>
+														<td>高分子材料</td>
+														<td>中国新材料研究所</td>
+													</tr>
+													<tr>
+														<td>胡向明</td>
+														<td>物理化学</td>
+														<td>教授</td>
+														<td>功能材料材料</td>
+														<td>中国新材料研究所</td>
+													</tr>
+												</tbody>
+										</table>
+									</div>
+										<div class="col-md-2">
+											<div class="portfolio-btn">
+												<a href="#" class="btn bigicn-only" style="margin-top: -3px; padding: 76px 0; background-color:#ddd !important;"><span>共&nbsp;&nbsp;<span style="font-size:30px; color: #169ef4;">4</span>&nbsp;&nbsp;人次</span></a>                      
+											</div>
+										</div>
+									</div>
+								
+								<!--end row-->
+									<div class="row portfolio-block">
+										<div class="col-md-2" style="margin-top: 0px;">
+											<img src="assets/img/zhuangbei.jpg">
+										</div>
+										<div class="col-md-8"  style="margin-bottom: -9px; margin-top: 10px;padding-right: 0;padding-left: 0;">
+											<table class="table table-hover table-striped table-bordered" style="border-right:1px solid #e5eff6;border-left:1px solid #e5eff6;">
+												<tbody>
+													<tr  style="border-bottom:1px solid #e5eff6;">
+														<th>类别</th>
+														<th>名称</th>
+														<th>数量</th>
+														<th>负责人</th>
+														<th>联系方式</th>
+													</tr>
+													<tr>
+														<td rowspan="2" style="border:1px solid #e5eff6;">个人防护</td>
+														<td>空气呼吸器</td>
+														<td>40个</td>
+														<td>张明涛</td>
+														<td>13004859120</td>
+													</tr>
+													<tr>
+														<td>防毒面具</td>
+														<td>30个</td>
+														<td>刘兴荣</td>
+														<td>13004859120</td>
+													</tr>
+													<tr>
+														<td  rowspan="2"  style="border:1px solid #e5eff6;">消防设备</td>
+														<td>干粉灭火器</td>
+														<td>6个</td>
+														<td>李世平</td>
+														<td>13004859120</td>
+													</tr>
+													<tr>
+														<td>防爆照明灯</td>
+														<td>24个</td>
+														<td>庞庆荣</td>
+														<td>13004859120</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<div class="col-md-2">
+											<div class="row">
+												<div class="portfolio-btn">
+													<a href="#" class="btn bigicn-only" style="margin-top: -3px; padding:30px 0;margin-left: 14px;border-bottom:4px solid #e5eff6;background-color:#ddd !important;">
+														<span>共&nbsp;&nbsp;<span style="font-size:28px; color: #169ef4;">70</span>&nbsp;&nbsp;个</span>
+													</a>                      
+												</div>
+											</div>
+											<div class="row">
+												<div class="portfolio-btn">
+													<a href="#" class="btn bigicn-only" style="margin-top: -3px; padding:30px 0;margin-left: 14px;background-color:#ddd !important;">
+														<span>共&nbsp;&nbsp;<span style="font-size:28px; color: #169ef4;">30</span>&nbsp;&nbsp;个</span>
+													</a>                      
+												</div>
+											</div>
+										</div>
+									</div>
+								<!--end row-->
+								<div class="row portfolio-block">
+										<div class="col-md-2" style="margin-top: 0px;">
+											<img src="assets/img/ziyuan.jpg">
+										</div>
+										<div class="col-md-8"  style="margin-bottom: -9px; margin-top: 10px;padding-right: 0;padding-left: 0;">
+											<table class="table table-hover table-striped table-bordered" style="border-right:1px solid #e5eff6;border-left:1px solid #e5eff6;">
+												<tbody>
+													<tr  style="border-bottom:1px solid #e5eff6;">
+														<th>类别</th>
+														<th>名称/名称</th>
+														<th>数量/人次</th>
+														<th>负责人</th>
+														<th>联系方式</th>
+													</tr>
+													<tr>
+														<td rowspan="2" style="border:1px solid #e5eff6;">劳保品</td>
+														<td>手套</td>
+														<td>30双</td>
+														<td>张明涛</td>
+														<td>13004859120</td>
+													</tr>
+													<tr>
+														<td>靴子</td>
+														<td>30双</td>
+														<td>张明涛</td>
+														<td>13004859120</td>
+													</tr>
+													<tr>
+														<td  rowspan="2"  style="border:1px solid #e5eff6;">应急援救队伍</td>
+														<td>医疗救援</a></td>
+														<td>12</a></td>
+														<td>李世平</a></td>
+														<td>13004859120</td>
+													</tr>
+													<tr>
+														<td>公安消防部队</a></td>
+														<td>24</a></td>
+														<td>庞庆荣</a></td>
+														<td>13004859120</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<div class="col-md-2">
+											<div class="row">
+												<div class="portfolio-btn">
+													<a href="#" class="btn bigicn-only" style="margin-top: -3px; padding:30px 0;margin-left: 14px;border-bottom:4px solid #e5eff6;background-color:#ddd !important;">
+														<span>共&nbsp;&nbsp;<span style="font-size:28px; color: #169ef4;">60</span>&nbsp;&nbsp;双</span>
+													</a>                      
+												</div>
+											</div>
+											<div class="row">
+												<div class="portfolio-btn">
+													<a href="#" class="btn bigicn-only" style="margin-top: -3px; padding:30px 0;margin-left: 14px;background-color:#ddd !important;">
+														<span>共&nbsp;&nbsp;<span style="font-size:28px; color: #169ef4;">36</span>&nbsp;&nbsp;个</span>
+													</a>                      
+												</div>
+											</div>
+										</div>
+									</div>
+								<!--end row-->
+							</div>
+							<!--end tab-pane-->
+							<div class="tab-pane" id="tab_1_4">
+								<div class="row">
+									<img src="assets/img/jygc.png">
+								</div>
+								<!--end row-->
+							</div>
+							<!--end tab-pane-->
+							<div class="tab-pane" id="tab_1_6">
+								<div class="row">
+									<div class="col-md-3">
+										<ul class="ver-inline-menu tabbable margin-bottom-10">
+											<li class="active">
+												<a data-toggle="tab" href="#tab_1">
+												<i class="fa fa-cog"></i> 
+												事故罐体区基本情况
+												</a> 
+												<span class="after"></span>                                    
+											</li>
+											<li><a data-toggle="tab" href="#tab_2"><i class="fa fa-ambulance"></i> 事故发生经过和应急救援等情况</a></li>
+											<li><a data-toggle="tab" href="#tab_3"><i class="fa fa-tags"></i>事故原因及性质</a></li>
+											<li><a data-toggle="tab" href="#tab_4"><i class="fa fa-file-text-o"></i>对事故有关人员及责任单位的建议</a></li>
+											<li><a data-toggle="tab" href="#tab_5"><i class="fa fa-eye"></i>事故防范</a></li>
+										</ul>
+									</div>
+									<div class="col-md-9">
+										<div class="tab-content">
+											<div id="tab_1" class="tab-pane active">
+												<div id="accordion1" class="panel-group">
+													<div class="panel panel-warning">
+														<div class="panel-heading">
+															<h4 class="panel-title">
+																<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_1">
+																1. 事故单位基本情况
+																</a>
+															</h4>
+														</div>
+
+														<div id="accordion1_1" class="panel-collapse collapse  in">
+															<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 435px;">
+															<div class="panel-body">
+																1.青岛石化公司是中国石油天然气股份有限公司下属的大型炼油企业，现有炼油化工主体装置37套，具备2050万吨/年的原油加工能力和27万吨/年的聚丙烯生产能力，员工总数6659人，主要从事原油加工、有机化工原料和合成树脂制造等业务。青岛石化公司持有的安全生产许可证有效期至2015年2月23日。
+															</div>
+															</div>
+														</div>
+													</div>
+													<div class="panel panel-danger">
+														<div class="panel-heading">
+															<h4 class="panel-title">
+																<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_2">
+																2. 事故罐区基本情况
+																</a>
+															</h4>
+														</div>
+														<div id="accordion1_2" class="panel-collapse collapse">
+															<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 435px;">
+															<div class="panel-body">
+																<p>
+																	青岛石化公司第一联合车间三苯罐区（分大罐区和小罐区）建于2000年，为10万吨/年苯乙烯装置配套罐区。
+																</p>
+																<p>
+																	三苯罐区的小罐区防火堤内设有940#罐、939#罐、938#罐、937#罐、936#罐、935#罐、934#罐、510#罐。
+																</p>
+																<p>
+																	939#罐为拱顶罐，罐容500立方米，用于收装10万吨/年苯乙烯装置的高沸物、甲苯等。
+																</p>
+															</div>
+															</div>
+														</div>
+													</div>
+													
+												</div>
+											</div>
+											<div id="tab_2" class="tab-pane">
+												<div id="accordion2" class="panel-group">
+													<div class="panel panel-warning">
+														<div class="panel-heading">
+															<h4 class="panel-title">
+																<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#accordion2_1">
+																1. 事故发生经过
+																</a>
+															</h4>
+														</div>
+														<div id="accordion2_1" class="panel-collapse collapse  in">
+															<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 435px;">
+															<div class="panel-body">
+																<p>
+																	2012年3月15日，10万吨/年苯乙烯装置由于效益原因停工。自2013年4月开始，青岛石化公司对10万吨/年苯乙烯装置进行技术改造，同时对配套的三苯罐区进行检修。
+																</p>
+															</div>
+															</div>
+														</div>
+													</div>
+													<div class="panel panel-danger">
+														<div class="panel-heading">
+															<h4 class="panel-title">
+																<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#accordion2_2">
+																2.应急救援情况
+																</a>
+															</h4>
+														</div>
+														<div id="accordion2_2" class="panel-collapse collapse">
+															<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 435px;">
+															<div class="panel-body">
+																青岛市消防部门派出40个中队846名消防官兵，出动消防车163台参与灭火。救援人员对事故罐区管排及框架实施冷却保护，并对地面流淌火和防火堤内池火进行扑救。16时大火被扑灭。同时第一时间将现场发现的两名受伤人员送往医院救治，后经抢救无效死亡。2名失踪的作业人员后经现场搜寻发现，已死亡。
+															</div>
+															</div>
+														</div>
+													</div>
+													<div class="panel panel-success">
+														<div class="panel-heading">
+															<h4 class="panel-title">
+																<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#accordion2_3">
+																3. 善后处理情况
+																</a>
+															</h4>
+														</div>
+														<div id="accordion2_3" class="panel-collapse collapse">
+															<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 435px;">
+																<div class="panel-body">
+																	青岛市委、市政府及事故单位积极做好事故伤亡人员家属安抚和赔偿等工作，遇难者理赔已全部完成。
+																</div>
+															</div>
+														</div>
+													</div>
+													
+												</div>
+											</div>
+											<div id="tab_3" class="tab-pane">
+												<div id="accordion3" class="panel-group">
+													<div class="panel panel-danger">
+														<div class="panel-heading">
+															<h4 class="panel-title">
+																<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#accordion3_1">
+																1. 直接原因
+																</a>
+															</h4>
+														</div>
+														<div id="accordion3_1" class="panel-collapse collapse  in">
+															<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 435px;">
+																<div class="panel-body">
+																	<p>
+																		林沅公司作业人员在罐顶违规违章进行气割动火作业，切割火焰引燃泄漏的甲苯等易燃易爆气体，回火至罐内引起储罐爆炸。
+																	</p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="panel panel-success">
+														<div class="panel-heading">
+															<h4 class="panel-title">
+																<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#accordion3_2">
+																2. 间接原因
+																</a>
+															</h4>
+														</div>
+														<div id="accordion3_2" class="panel-collapse collapse">
+															<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 435px;">
+																<div class="panel-body">
+																	<p>
+																		1.中石油七建公司青岛项目部在承揽939#储罐仪表维护平台更换项目后，非法分包给没有劳务分包企业资质的林沅公司，以包代管、包而不管，没有对现场作业实施安全管控。
+																	</p>
+																	<p>
+																		2.林沅公司未能依法履行安全生产主体责任，未取得劳务分包企业资质就非法承接项目；企业规章制度不健全不落实，员工安全意识淡薄，违章动火；未对现场作业实施有效的安全管控。
+																	</p>
+																	<p>
+																		3.青岛石化公司安全管理责任不落实，管理及作业人员安全意识淡薄，制度执行不认真不严格，检维修管理、动火管理和承包商管理严重缺失。
+																	</p>
+																	<p>
+																		4.中国石油天然气股份有限公司对青岛石化公司安全生产工作监督管理不到位，对青岛石化公司反复发生生产安全事故重视不够，对青岛石化公司存在的安全生产责任制不落实和动火、承包商管理严重缺失等问题失察。
+																	</p>
+																	
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="panel panel-default">
+														<div class="panel-heading">
+															<h4 class="panel-title">
+																<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#accordion3_3">
+																3. 事故性质
+																</a>
+															</h4>
+														</div>
+														<div id="accordion3_3" class="panel-collapse collapse">
+															<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 435px;">
+																<div class="panel-body">
+																	经调查认定，青岛石化公司“6•2”爆炸火灾事故是一起生产安全责任事故。
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div id="tab_4" class="tab-pane">
+												<div id="accordion4" class="panel-group">
+													<div class="panel panel-danger">
+														<div class="panel-heading">
+															<h4 class="panel-title">
+																<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion4" href="#accordion4_1">
+																1.因在事故中死亡、免予追究责任人员
+																</a>
+															</h4>
+														</div>
+														<div id="accordion4_1" class="panel-collapse collapse  in">
+															<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 435px;">
+																<div class="panel-body">
+																	<p>
+																		1.姚忠利，林沅公司工人，在实施“更换939#罐罐顶侧壁仪表平台”动火作业过程中，违章动火作业，对本次事故的发生负有直接责任。
+																	</p>
+																	<p>
+																		2.陶崇海，林沅公司工人，电气焊特种作业人员操作证过期，在实施“更换939#罐罐顶侧壁仪表平台”动火作业过程中，违章动火作业，对本次事故的发生负有直接责任。
+																	</p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="panel panel-default">
+														<div class="panel-heading">
+															<h4 class="panel-title">
+																<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion4" href="#accordion4_2">
+																2. 建议移送司法机关追究刑事责任人员
+																</a>
+															</h4>
+														</div>
+														<div id="accordion4_2" class="panel-collapse collapse">
+															<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 435px;">
+																<div class="panel-body">
+																	<p>
+																		1.王大庆，青岛石化公司第一联合车间安全员。在实施“更换939#罐罐顶侧壁仪表平台”动火作业审批时，擅自更改动火作业日期，并代他人签名，且现场安全防控措施不落实。对本次事故发生负有直接责任，建议移交司法机关对其追究刑事责任。
+																	</p>
+																	<p>
+																		2.杨福顺，林沅公司总经理，受法定代表人委托负责公司全面管理工作。未认真履行其安全职责，企业没有取得劳务分包企业资质非法承接劳务作业分包项目；在实施“更换939#罐罐顶侧壁仪表平台”动火作业前，未按要求进行风险辨识和制定落实安全防范措施，未安排安全管理人员对作业现场进行安全监控。对本次事故发生负有直接管理责任，依据《中华人民共和国安全生产法》第八十一条规定，建议移交司法机关对其追究刑事责任。
+																	</p>
+																	<p>
+																		3.贾立志，中石油七建公司青岛项目部经理，项目部安全生产第一责任人。在对实施“更换939#罐罐顶侧壁仪表平台”动火作业前，未按要求组织作业风险辨识和制定安全防范措施；非法分包给林沅公司部分检维修项目。对本次事故发生负有主要责任，建议移交司法机关对其追究其刑事责任。
+																	</p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="panel panel-success">
+														<div class="panel-heading">
+															<h4 class="panel-title">
+																<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion4" href="#accordion4_3">
+																3. 建议给予党纪政纪处分人员
+																</a>
+															</h4>
+														</div>
+														<div id="accordion4_3" class="panel-collapse collapse">
+															<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 435px;">
+																<div class="panel-body">
+																	<p>
+																		1.刘世伟，中石油七建公司青岛项目部安全员。在实施“更换939#罐罐顶侧壁仪表平台”动火作业时，没有履行监督管理职责。对事故发生负有重要责任，建议给予降级处分。
+																	</p>
+																	<p>
+																		2.尹辉，中石油七建公司青岛项目部安全科副科长（主持工作）。在实施“更换939#罐罐顶侧壁仪表平台”动火作业时,未履行监督管理职责。对事故发生负有主要管理责任，建议给予撤职处分。
+																	</p>
+																	<p>
+																		3.叶永光，中石油七建公司青岛项目部生产经理，负责项目部安全管理工作。在对实施“更换939#罐罐顶侧壁仪表平台”动火作业前，未按要求进行风险辨识和制定落实安全防范措施。对事故发生负有主要领导责任，建议给予撤职处分。
+																	</p>
+																	<p>
+																		4.徐立泉，中石油七建公司安环部部长。作为公司安全监管部门负责人，对青岛项目部作业过程安全监管不力，对存在的违规作业等问题失察。对事故发生负有重要管理责任，建议给予记大过处分。
+																	</p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="panel panel-warning">
+														<div class="panel-heading">
+															<h4 class="panel-title">
+																<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion4" href="#accordion4_4">
+																4. 对责任单位及个人的经济处罚建议
+																</a>
+															</h4>
+														</div>
+														<div id="accordion4_4" class="panel-collapse collapse">
+															<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 435px;">
+																<div class="panel-body">
+																	<p>
+																		1.依据《安全生产违法行为行政处罚办法》（国家安全监管总局令第15号）第四十四条规定，建议对林沅公司施工队长左刚予以行政处罚。
+																	</p>
+																	<p>
+																		2.依据《生产安全事故报告和调查处理条例》第三十七条规定，建议对中石油七建公司予以行政处罚。
+																	</p>
+																	<p>
+																		3.依据《生产安全事故报告和调查处理条例》第三十七条规定，建议对林沅公司予以行政处罚。
+																	</p>
+																	<p>
+																		4.依据《生产安全事故报告和调查处理条例》第三十七条规定，建议对青岛石化公司予以行政处罚。
+																	</p>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div id="tab_5" class="tab-pane">
+												<div id="accordion5" class="panel-group">
+													<div class="panel panel-danger">
+														<div class="panel-heading">
+															<h4 class="panel-title">
+																<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#accordion5_1">
+																1.进一步落实企业安全生产主体责任，切实把事故防范工作落到实处
+																</a>
+															</h4>
+														</div>
+														<div id="accordion5_1" class="panel-collapse collapse  in">
+															<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 435px;">
+																<div class="panel-body">
+																	中国石油天然气集团公司及各类生产经营单位要深刻吸取青岛石化“6.2”爆炸火灾事故的沉痛教训，进一步落实企业安全生产主体责任，切实把安全生产工作作为企业头等大事来抓。
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="panel panel-default">
+														<div class="panel-heading">
+															<h4 class="panel-title">
+																<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#accordion5_2">
+																2. 进要深刻吸取连续发生事故的教训，全面加强安全生产工作
+																</a>
+															</h4>
+														</div>
+														<div id="accordion5_2" class="panel-collapse collapse">
+															<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 435px;">
+																<div class="panel-body">
+																	中国石油天然气集团公司要认真贯彻落实中央领导同志的一系列重要批示指示精神，牢固树立科学发展观和安全发展的理念，牢固树立以人为本、安全第一的思想，正确处理安全与生产、安全与效益、安全与发展的关系，真正把安全生产摆在重中之重的位置，切实加强领导，全面加强安全生产工作。
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="panel panel-success">
+														<div class="panel-heading">
+															<h4 class="panel-title">
+																<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#accordion5_3">
+																3. 要从思想上高度重视，进一步强化化工企业检维修作业管理
+																</a>
+															</h4>
+														</div>
+														<div id="accordion5_3" class="panel-collapse collapse">
+															<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 435px;">
+																<div class="panel-body">
+																	中国石油天然气集团公司及各类化工企业对检维修作业安全要全面负责，并进行全过程监督管理。
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="panel panel-default">
+														<div class="panel-heading">
+															<h4 class="panel-title">
+																<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#accordion5_4">
+																4. 要强化各级地方政府及其有关部门的安全监管职责，切实加强对危险化学品企业的安全监管
+																</a>
+															</h4>
+														</div>
+														<div id="accordion5_4" class="panel-collapse collapse">
+															<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 435px;">
+																<div class="panel-body">
+																	危险化学品生产企业的安全监管涉及政府多个部门。各级地方政府及其有关部门要按照“管行业必须管安全、管业务必须管安全、管生产建设经营必须管安全”的要求和“谁主管谁负责”、“谁许可谁负责”、“谁发证谁负责”以及“一岗双责”的原则，切实落实地方政府及其有关部门的安全监管责任，加大执法和监督检查力度，进一步加强危险化学品企业尤其是中央企业的安全监管工作。
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="panel panel-warning">
+														<div class="panel-heading">
+															<h4 class="panel-title">
+																<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#accordion5_5">
+																5.要深入开展“打非治违”工作，牢牢抓住“牛鼻子”不放松
+																</a>
+															</h4>
+														</div>
+														<div id="accordion5_5" class="panel-collapse collapse">
+															<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 435px;">
+																<div class="panel-body">
+																	中国石油天然气集团公司和各地区、各有关部门及各类生产经营单位要继续按照《国务院办公厅关于集中开展安全生产领域“打非治违”专项行动的通知》（国办发〔2012〕10号）的要求，以及国务院安全生产委员会的相关部署，坚持不懈地持续开展“打非治违”工作。要充分认识不断深化“打非治违”工作的重要性，针对本地区、本部门、本单位的特定和实际情况，进一步完善机制、明确责任、落实任务，继续加强对“打非治违”工作的领导，保持对非法违法、违规违章行为的高压态势，严厉打击非法转包、承包和非法生产建设经营行为。
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="panel panel-default">
+														<div class="panel-heading">
+															<h4 class="panel-title">
+																<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#accordion5_6">
+																6. 认真组织开展安全生产大检查，全面排查治理各种事故隐患
+																</a>
+															</h4>
+														</div>
+														<div id="accordion5_6" class="panel-collapse collapse">
+															<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 435px;">
+																<div class="panel-body">
+																	中国石油天然气集团公司和各地区、各有关部门、各类生产经营单位要认真贯彻落实习近平总书记和李克强总理等中央领导同志的重要批示指示精神和国务院开展安全生产大检查、加强安全生产工作的一系列决策部署，认真组织好安全生产大检查工作。要把安全生产大检查作为当前安全生产的首要任务，按照“全覆盖、零容忍、严执法、重实效”的总要求,采取切实有效的措施，全面深入排查安全生产隐患，做到不走过场、不留死角，不遮不掩、真查真治。
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--end tab-pane-->
+						</div>
+					</div>
+					<!--END TABS-->
+				</div>
+			</div>
+			<!-- END PAGE CONTENT-->
+
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                   
+                    <div style="min-height:30px; display:block"></div>
+                    <div class="row">
+                    	<div class="col-md-12">
+                        	
+                            <!-- /.modal -->
+							<div id="responsive" class="modal fade" tabindex="-1" aria-hidden="true" data-width="70%" style="width: 810px; margin-left: -379px; margin-top: -249px;border: 1px solid #8D8D8D;box-shadow: 0px 3px 3px #1D1D1D;color:#8e9daa;">
+								
+								<div class="modal-header" style="border-bottom: 2px solid #B9E1F5; padding-bottom: 30px;">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                     	<div class="modal-title" style="margin: -34px 0 0 -14px;background-image:url(assets/img/bg_blue.png); background-repeat:no-repeat;">
+                                           <h3 style="padding: 16px 0 16px 16px;color:#fff">选择补充措施</h3> 
+                                         </div>
+                                         
+                                     		<div class="row"  style="margin-right: 0px; margin-left:30px;">
+                                            	<div class=" col-xs-offset-1 col-md-4">
+                                                	&nbsp;
+                                                </div>
+                                                <div class="col-md-4" style="margin-left: -22px;">
+                                                	&nbsp;
+                                                </div>
+                                                <div class="col-md-2" style="margin-left: -22px;">
+                                                		模糊检索
+	                                                	<div class="input-group input-medium">
+															<input class="form-control" placeholder="" type="text">
+															<span class="input-group-btn">
+															<button class="btn yellow" type="button"><i class="fa fa-search"></i></button>
+															</span>
+												</div>
+                                             </div>
+                                             
+                                           </div>
+										</div>
+										<div class="modal-body">
+                                            	<div class="row" style="margin: -20px -13px -13px;">
+                                            		<div class="col-md-12" style="padding: 0px 5px;">
+                                                			<table class="table table-striped table-bordered table-advance table-hover ">
+			                                                    <thead>
+			                                                    	<tr>
+			                                                        	<th></th>
+			                                                            <th >安全措施</th>
+			                                                        </tr>
+			                                                    </thead>
+                                                                <tbody>
+                                                                    
+                                                                    <tr>
+                                                                        <td><input type="checkbox" ></td>   
+                                                                        <td>已对作业人员进行必要的安全教育。</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><input type="checkbox" ></td>
+                                                                        <td>已检查使用的检修工具安全防护用具均符合要求</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><input type="checkbox" ></td>
+                                                                        <td>已切断检修设备上的电源，并在电源开关上挂"禁止合闸有人工作"标志牌，并加锁。</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><input type="checkbox" ></td>
+                                                                        <td>所有与检修设备有联系的阀门、管线已加盲板隔离。</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><input type="checkbox" ></td>
+                                                                        <td>清理检修现场的杂物、物料、设备器具，保持安全通道畅通。</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                       		</table>
+                                                		</div>
+                                            	</div>
+											</div>
+			<div class="row" style="padding: 0px 11px; margin-right: 0px;">
+                                                            <div class="col-md-5 col-sm-5">
+                                                                <div aria-live="polite" role="status" id="sample_2_info" class="dataTables_info" style="font-size: 12px;">
+                                                                    显示 1 到 5 页  共 12 条记录
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-7 col-sm-7">
+                                                                <div id="sample_2_paginate" class="dataTables_paginate paging_simple_numbers">
+                                                                    <ul class="pagination">
+                                                                        <li id="sample_2_previous" tabindex="0" aria-controls="sample_2" class="paginate_button previous disabled">
+                                                                        	<a href="#"><i class="fa fa-angle-left"></i></a></li>
+                                                                        <li tabindex="0" aria-controls="sample_2" class="paginate_button active">
+                                                                        	<a href="#">1</a></li>
+                                                                        <li tabindex="0" aria-controls="sample_2" class="paginate_button ">
+                                                                        	<a href="#">2</a>
+                                                                        </li>
+                                                                        <li tabindex="0" aria-controls="sample_2" class="paginate_button ">
+                                                                        	<a href="#">3</a>
+                                                                        </li>
+                                                                        <li id="sample_2_next" tabindex="0" aria-controls="sample_2" class="paginate_button next">
+                                                                        	<a href="#"><i class="fa fa-angle-right"></i></a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <hr style="border: 1px solid #14B4FE;">
+                                            <div class="modal-footer" style="padding: 0px 20px 14px;">
+                                                <button type="button" data-dismiss="modal" class="btn btn-default">关闭&nbsp;<i class="fa fa-times" style="color: #B4B4B4;"></i></button>
+                                                <button type="button" class="btn blue" style="background:#14B4FE">添加&nbsp;<i class="m-icon-swapright m-icon-white"></i></button>
+                                            </div>
+									
+							</div>
+                           <!--.modal end-->                             
+                        </div>
+                    </div>
+                    
+                    <!--弹出框结束-->
+				</div>
+			</div>
+			<!-- END PAGE HEADER-->
+			<!-- BEGIN DASHBOARD STATS -->
+            
+			
+		<!-- END PAGE -->
+	</div>
+	<!-- END CONTAINER -->
+	<!-- BEGIN FOOTER -->
+    
+    
+                                       
+	<div class="footer">
+		<div class="footer-inner">
+			2015 &copy; 青岛董家口经济区
+		</div>
+		<div class="footer-tools">
+			<span class="go-top">
+			<i class="fa fa-angle-up"></i>
+			</span>
+		</div>
+	</div>
+	<!-- END FOOTER -->
+	<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+	<!-- BEGIN CORE PLUGINS -->   
+	<!--[if lt IE 9]>
+	<script src="assets/plugins/respond.min.js"></script>
+	<script src="assets/plugins/excanvas.min.js"></script> 
+	<![endif]-->   
+	<script src="assets/plugins/jquery-1.10.2.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>     
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap2-typeahead.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js" type="text/javascript" ></script>
+	<script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>  
+	<script src="assets/plugins/jquery.cookie.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/uniform/jquery.uniform.min.js" type="text/javascript" ></script>
+	<!-- END CORE PLUGINS -->
+	<!-- BEGIN PAGE LEVEL PLUGINS -->
+	<script type="text/javascript" src="assets/plugins/fuelux/js/spinner.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/ckeditor/ckeditor.js"></script>  
+	<script type="text/javascript" src="assets/plugins/bootstrap-fileupload/bootstrap-fileupload.js"></script>
+	<script type="text/javascript" src="assets/plugins/select2/select2.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/bootstrap-wysihtml5/wysihtml5-0.3.0.js"></script> 
+	<script type="text/javascript" src="assets/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.js"></script>
+	<script type="text/javascript" src="assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+	<script type="text/javascript" src="assets/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+	<script type="text/javascript" src="assets/plugins/clockface/js/clockface.js"></script>
+	<script type="text/javascript" src="assets/plugins/bootstrap-daterangepicker/moment.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/bootstrap-daterangepicker/daterangepicker.js"></script> 
+	<script type="text/javascript" src="assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>  
+	<script type="text/javascript" src="assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+	<script type="text/javascript" src="assets/plugins/jquery-inputmask/jquery.inputmask.bundle.min.js"></script>   
+	<script type="text/javascript" src="assets/plugins/jquery.input-ip-address-control-1.0.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/jquery-multi-select/js/jquery.multi-select.js"></script>
+	<script type="text/javascript" src="assets/plugins/jquery-multi-select/js/jquery.quicksearch.js"></script>   
+	<script src="assets/plugins/jquery.pwstrength.bootstrap/src/pwstrength.js" type="text/javascript" ></script>
+	<script src="assets/plugins/bootstrap-switch/static/js/bootstrap-switch.min.js" type="text/javascript" ></script>
+	<script src="assets/plugins/jquery-tags-input/jquery.tagsinput.min.js" type="text/javascript" ></script>
+	<script src="assets/plugins/bootstrap-markdown/js/bootstrap-markdown.js" type="text/javascript" ></script>
+	<script src="assets/plugins/bootstrap-markdown/lib/markdown.js" type="text/javascript" ></script>
+	<script src="assets/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js" type="text/javascript" ></script>
+	<script src="assets/plugins/bootstrap-touchspin/bootstrap.touchspin.js" type="text/javascript" ></script>
+	<!-- END PAGE LEVEL PLUGINS -->
+    <script src="assets/plugins/bootstrap-modal/js/bootstrap-modalmanager.js" type="text/javascript" ></script>
+	<script src="assets/plugins/bootstrap-modal/js/bootstrap-modal.js" type="text/javascript" ></script>
+    <script src="assets/plugins/jquery-tags-input/jquery.tagsinput.min.js" type="text/javascript" ></script>
+	<!-- BEGIN PAGE LEVEL SCRIPTS -->
+	<script src="assets/scripts/app.js"></script>
+	<script src="assets/scripts/form-components.js"></script> 
+    <script src="assets/scripts/ui-extended-modals.js"></script>  
+    <script src="assets/djkjs/workboots.js"></script>   
+    <script src="assets/scripts/form-samples.js"></script>
+	<!-- END PAGE LEVEL SCRIPTS -->
+	<script>
+		jQuery(document).ready(function() {       
+		   // initiate layout and plugins
+		   App.init();
+		   FormComponents.init();
+		   FormSamples.init();
+		});
+	</script>
+	<!-- BEGIN GOOGLE RECAPTCHA -->
+	<script type="text/javascript">
+		var RecaptchaOptions = {
+		   theme : 'custom',
+		   custom_theme_widget: 'recaptcha_widget'
+		};
+	</script>
+    
+</body>
+<!-- END BODY -->
+</html>

@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<!-- 
+Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.0.2
+Version: 1.5.4
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+	<meta charset="utf-8" />
+	<title>安全环保应急监管平台</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+	<meta name="MobileOptimized" content="320">
+	<!-- BEGIN GLOBAL MANDATORY STYLES -->          
+	<link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+	<!-- END GLOBAL MANDATORY STYLES -->
+	<!-- BEGIN PAGE LEVEL PLUGIN STYLES --> 
+	<link href="assets/plugins/gritter/css/jquery.gritter.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />
+	<link href="assets/plugins/fullcalendar/fullcalendar/fullcalendar.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/jqvmap/jqvmap/jqvmap.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css"/>
+	<!-- END PAGE LEVEL PLUGIN STYLES -->
+	<!-- BEGIN THEME STYLES --> 
+	<link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/css/plugins.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/css/pages/tasks.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+	<link href="assets/css/custom.css" rel="stylesheet" type="text/css"/>
+	<!-- END THEME STYLES -->
+    	<link rel="stylesheet" type="text/css" href="assets/plugins/select2/select2_metro.css" />
+	<link rel="stylesheet" href="assets/plugins/data-tables/DT_bootstrap.css" />
+    	<link href="assets/plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/bootstrap-modal/css/bootstrap-modal.css" rel="stylesheet" type="text/css"/>
+    
+    
+	<link rel="shortcut icon" href="assets/img/logo-m.png" />
+    	<style>
+    		body{
+    			font-size:12px;
+    		}
+    		.tableTitle{
+			margin-top:20px;
+			margin-bottom:20px;				
+		}
+		li{
+			list-style:none;
+		}
+		#command:visited{
+			color:#bb2413;
+		}
+    	</style>
+    	<script>
+    		function styles(obj){
+    			$(obj).css('background','#bb2413');
+    			// $(obj).inner html('已通过')
+    		}
+    	</script>
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="page-header-fixed page-sidebar-fixed ">
+	<!-- BEGIN HEADER -->   
+	<div class="header navbar navbar-inverse navbar-fixed-top">
+		<!-- BEGIN TOP NAVIGATION BAR -->
+		<div class="header-inner">
+			<!-- BEGIN LOGO -->  
+			<a class="navbar-brand" href=" ">
+            				<img src="assets/img/logo_1.png" alt="logo" class="img-responsive" />
+            				<img src="assets/img/logo_3.png" alt="logo" class="img-responsive1" />
+        			</a>
+            			<a class="navbar-brand" href=" "></a>
+            			<a class="navbar-brand" href=" ">
+            			<!-- END LOGO -->
+			<!-- BEGIN RESPONSIVE MENU TOGGLER --> 
+			<a href="javascript:;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<img src="assets/img/menu-toggler.png" alt="" />
+			</a> 
+			<!-- END RESPONSIVE MENU TOGGLER -->
+			<!-- BEGIN TOP NAVIGATION MENU -->
+			<ul class="nav navbar-nav pull-right">
+				<!-- BEGIN NOTIFICATION DROPDOWN -->
+				<li class="dropdown" id="header_notification_bar">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"data-close-others="true">
+						<i class="fa fa-bell"></i>
+						<span class="badge">6</span>
+					</a>
+					<ul class="dropdown-menu extended notification">
+						<li>
+							<p>您有14项新通知/消息</p>
+						</li>
+						<li>
+							<ul class="dropdown-menu-list scroller" style="height: 250px;">
+								<li>  
+									<a href="wdxx.html">
+									<span class="label label-sm label-icon label-success"><i class="fa fa-plus"></i></span>
+									新的隐患排查巡检计划制定. 
+									<span class="time">刚刚</span>
+									</a>
+								</li>
+								<li>  
+									<a href="wdxx.html">
+									<span class="label label-sm label-icon label-danger"><i class="fa fa-bolt"></i></span>
+									青钢 #12 容器压力预警. 
+									<span class="time">15 分钟</span>
+									</a>
+								</li>
+								<li>  
+									<a href="wdxx.html">
+									<span class="label label-sm label-icon label-warning"><i class="fa fa-bell-o"></i></span>
+									青钢 #2 容器压力异常.
+									<span class="time">22 分钟</span>
+									</a>
+								</li>
+								<li>  
+									<a href="wdxx.html">
+									<span class="label label-sm label-icon label-info"><i class="fa fa-bullhorn"></i></span>
+									青钢 网络负载过载.
+									<span class="time">40 分钟</span>
+									</a>
+								</li>
+								<li>  
+									<a href="wdxx.html">
+									<span class="label label-sm label-icon label-info"><i class="fa fa-bolt"></i></span>
+									海晶监测数据恢复 68%. 
+									<span class="time">2 小时</span>
+									</a>
+								</li>
+								<li>  
+									<a href="wdxx.html">
+									<span class="label label-sm label-icon label-danger"><i class="fa fa-bolt"></i></span>
+									海晶监测数据接收错误.
+									<span class="time">5 小时</span>
+									</a>
+								</li>
+								
+							</ul>
+						</li>
+						<li class="external">   
+							<a href="wdxx.html">查看所有的通知/消息 <i class="m-icon-swapright"></i></a>
+						</li>
+					</ul>
+				</li>
+				<!-- END NOTIFICATION DROPDOWN -->
+
+				<!-- BEGIN TODO DROPDOWN -->
+				<li class="dropdown" id="header_task_bar">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+					<i class="fa fa-tasks"></i>
+					<span class="badge">5</span>
+					</a>
+					<ul class="dropdown-menu extended tasks">
+						<li>
+							<p>您有12项正在进行的任务</p>
+						</li>
+						<li>
+							<ul class="dropdown-menu-list scroller" style="height: 250px;">
+								<li>  
+									<a href="wdrw.html">
+									<span class="task">
+									<span class="desc">DJK-YHPC-00000002整改工程</span>
+									<span class="percent">30%</span>
+									</span>
+									<span class="progress">
+									<span style="width: 40%;" class="progress-bar progress-bar-success" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only">40% Complete</span>
+									</span>
+									</span>
+									</a>
+								</li>
+								<li>  
+									<a href="wdrw.html">
+									<span class="task">
+									<span class="desc">安全生产许可证检查活动</span>
+									<span class="percent">65%</span>
+									</span>
+									<span class="progress progress-striped">
+									<span style="width: 65%;" class="progress-bar progress-bar-danger" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only">65% Complete</span>
+									</span>
+									</span>
+									</a>
+								</li>
+								<li>  
+									<a href="wdrw.html">
+									<span class="task">
+									<span class="desc">下发压力容器整改</span>
+									<span class="percent">98%</span>
+									</span>
+									<span class="progress">
+									<span style="width: 98%;" class="progress-bar progress-bar-success" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only">98% Complete</span>
+									</span>
+									</span>
+									</a>
+								</li>
+								<li>  
+									<a href="wdrw.html">
+									<span class="task">
+									<span class="desc">DJK-YHPC-00000001整改验收</span>
+									<span class="percent">10%</span>
+									</span>
+									<span class="progress progress-striped">
+									<span style="width: 10%;" class="progress-bar progress-bar-warning" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only">10% Complete</span>
+									</span>
+									</span>
+									</a>
+								</li>
+								<li>  
+									<a href="wdrw.html">
+									<span class="task">
+									<span class="desc">青钢3高线现场检查</span>
+									<span class="percent">58%</span>
+									</span>
+									<span class="progress progress-striped">
+									<span style="width: 58%;" class="progress-bar progress-bar-info" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only">58% Complete</span>
+									</span>
+									</span>
+									</a>
+								</li>
+								<li>  
+									<a href="wdrw.html">
+									<span class="task">
+									<span class="desc">压力管道巡检</span>
+									<span class="percent">85%</span>
+									</span>
+									<span class="progress progress-striped">
+									<span style="width: 85%;" class="progress-bar progress-bar-success" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only">85% Complete</span>
+									</span>
+									</span>
+									</a>
+								</li>
+								<li>  
+									<a href="wdrw.html">
+									<span class="task">
+									<span class="desc">压力容器定期巡检</span>
+									<span class="percent">18%</span>
+									</span>
+									<span class="progress progress-striped">
+									<span style="width: 18%;" class="progress-bar progress-bar-important" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only">18% Complete</span>
+									</span>
+									</span>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="external">   
+							<a href="#">查看所有任务 <i class="m-icon-swapright"></i></a>
+						</li>
+					</ul>
+				</li>
+				<!-- END TODO DROPDOWN -->
+				<!-- BEGIN USER LOGIN DROPDOWN -->
+				<li class="dropdown user">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+					<img alt="" src="assets/img/avatar1_small.jpg"/>
+					<span class="username">张万里</span>
+					<i class="fa fa-angle-down"></i>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="extra_profile.html"><i class="fa fa-user"></i> 我的资料</a></li>
+						<li><a href="inbox.html"><i class="fa fa-bell"></i>我的消息 <span class="badge badge-danger">3</span></a></li>
+						<li><a href="#"><i class="fa fa-tasks"></i> 我的任务 <span class="badge badge-success">7</span></a></li>
+						<li class="divider"></li>
+						<li><a href="javascript:;" id="trigger_fullscreen"><i class="fa fa-arrows-alt"></i> 全屏</a></li>
+						<li><a href="extra_lock.html"><i class="fa fa-lock"></i> 锁屏</a></li>
+						<li><a href="login.html"><i class="fa fa-key"></i> 注销</a></li>
+					</ul>
+				</li>
+				<!-- END USER LOGIN DROPDOWN -->
+		  </ul>
+			<!-- END TOP NAVIGATION MENU -->
+	  </div>
+		<!-- END TOP NAVIGATION BAR -->
+	</div>
+	<!-- END HEADER -->
+	<div class="clearfix"></div>
+	<!-- BEGIN CONTAINER -->
+	<div class="page-container  ">
+		<!-- BEGIN SIDEBAR -->
+		<div class="page-sidebar navbar-collapse collapse ">
+			<!-- BEGIN SIDEBAR MENU -->        
+			<ul class="page-sidebar-menu">
+				<li>
+					<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+					<div class="sidebar-toggler hidden-phone"></div>
+					<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+				</li>
+				<li>
+					<!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
+					<form class="sidebar-search" action="extra_search.html" method="POST">
+						<div class="form-container">
+							<div class="input-box">
+								<a href="javascript:;" class="remove"></a>
+								<input type="text" placeholder="搜索..."/>
+								<input type="button" class="submit" value=" "/>
+							</div>
+						</div>
+					</form>
+					<!-- END RESPONSIVE QUICK SEARCH FORM -->
+				</li>
+				
+				<li class="start">
+					<a class="active" href="grzx-yd.html">
+					<i class="fa fa-tachometer"></i>
+					<span class="title">个人中心</span>
+					<span class="arrow"></span>
+					</a>
+					<ul style="display: none;" class="sub-menu">
+						<li>
+							<a href="grzx-yd.html"><i class="fa fa-map-signs"></i>
+							个人中心向导
+							<span></span>
+							</a>
+						</li>
+						<li>
+							<a href="wdzl.html">
+								<i class="fa fa-user"></i>
+								 我的资料
+							</a>
+						</li>
+						<li>
+							<a href="wdxx.html">
+								<i class="fa fa-bell"></i>
+								我的消息 
+								<span class="badge badge-danger">3</span>
+							</a>
+						</li>
+						<li>
+							<a href="wdrw.html">
+								<i class="fa fa-tasks"></i> 
+								我的任务 
+								<span class="badge badge-success">7</span>
+							</a>
+						</li>
+					</ul>
+				</li>	
+				<li>
+					<a class="" href="javascript:;">
+					<i class="fa fa-hospital-o"></i> 
+					<span class="title">一企一档</span>
+					<span class="arrow "></span>
+					</a>
+				</li>
+				<li>
+					<a class="" href="yhpc-yd.htm">
+					<i class="fa fa-file-excel-o"></i> 
+					<span class="title">公文管理</span>
+					<span class="arrow "></span>
+					</a>
+					
+				</li>					
+				<li>
+					<a class="active" href="yhpc-yd.html">
+					<i class="fa fa-calendar-check-o"></i> 
+					<span class="title">隐患排查</span>
+					<span class="arrow"></span>
+					</a>
+					<ul style="display: none;" class="sub-menu">
+						<li>
+							<a href="yhpc-yd.html"><i class="fa fa-map-signs"></i>
+							隐患排查向导
+							<span></span>
+							</a>
+						</li>
+						<li>
+							<a href="yhpc-aqxj.html">
+							<i class="fa fa-stethoscope"></i> 
+							安全巡检
+							<span ></span>
+							</a>							
+						</li>
+						<li>
+							<a href="yhpc-yhzg.html"><i class="fa fa-wrench"></i>
+							隐患整改
+							</a>
+						</li>
+						<li>
+							<a href="yhpc-fcys.html"><i class="fa fa-gavel"></i>
+							复查/验收
+							</a>
+						</li>
+						<li>
+							<a href="yhpc-tzd.html"><i class="fa fa-files-o"></i>
+							通知单
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li class="active open">
+					<a class="" href="zyjc-yd.html">
+						<i class="fa fa-eye"></i> 
+						<span class="title">作业监察</span>
+						<span class="arrow"></span>
+					</a>
+				             <ul  style="display: block;"  class="sub-menu">
+				                    	<li class="active">
+				                        		<a href="zyjc-yd.html"><i class="fa fa-map-signs"></i>
+				                            	作业监察向导
+				                            	</a>
+				                        </li>
+				                        <li>
+				                        		<a href="zyjd-zybb-zylb.html"><i class="fa fa-wrench"></i>
+				                            	作业报备
+				                                		<span class="badge badge-success">7</span>
+				                            	</a>
+				                        </li>
+				                        
+				                        <li>
+				                        		<a href="zyjc-zyyslb.html"><i class="fa fa-gavel"></i>
+				                            	复查/验收
+				                                	<span class="badge badge-warning">10</span>
+				                            	</a>
+				                        </li>
+				                        
+				             </ul>
+				</li>		
+				<li class="">
+					<a class="" href="javascript:;">
+					<i class="fa fa-magic"></i> 
+					<span class="title">应急指挥</span>
+					<span class="arrow "></span>
+					</a>
+                    <ul class="sub-menu">
+                    	<li>
+                           <a href="yjzh-yd.html"><i class="fa fa-map-signs"></i>
+						   应急指挥向导
+						   </a>
+                        </li>
+                        <li >
+                            <a href="yjzh-yjjj.html"><i class="fa fa-bell"></i>
+                            应急接警
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="yjzh-yjbz.html"><i class="fa fa-book"></i>
+                            应急预案
+                            </a>
+                        </li>
+                        <li>
+                            <a href="yjzh-yjzy.html"><i class="fa fa-cubes"></i>
+                            应急资源
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="#"><i class="fa fa-ambulance"></i>
+                            应急救援
+                            <span class="arrow "></span>
+                            </a>
+                            
+                            <ul class="sub-menu">
+                            	<li ><a href="yjzh-yjxy.html"><i class="fa fa-pied-piper-alt"></i> 应急响应</a></li>
+                            	<li class=""><a href="yjzh-yjjy.html"><i class="fa fa-comment"></i> 应急处置</a></li>
+                                <li ><a href="yjcz-yjsg.html"><i class="fa fa-paperclip"></i> 救援记录</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+				</li>
+				<li class="">
+					<a class="active" href="javascript:;">
+					<i class="fa fa-exclamation-triangle"></i> 
+					<span class="title">危险源监测</span>
+					<span class="arrow "></span>
+					</a>
+                    <ul    class="sub-menu">
+				                    	<li >
+				                        		<a href="zdwxyjz-yd.html"><i class="fa fa-map-signs"></i>
+				                            	危险源检测向导
+				                            	</a>
+				                        </li>
+				                        <li>
+				                        		<a href="#.html"><i class="fa fa-wrench"></i>
+				                            	重大危险源台账
+				                                		<span class="badge badge-success">7</span>
+				                            	</a>
+				                        </li>
+				                        
+				                        <li>
+				                        		<a href="zdwxyjz-tbjc.html"><i class="fa fa-bar-chart"></i>
+				                            	在线图表展示
+				                                	<span class="badge badge-warning">10</span>
+				                            	</a>
+				                        </li>
+                                        <li class="">
+				                        		<a href="zdwxyjz.html"><i class="fa fa-eye"></i>
+				                            	在线GIS展示
+				                                	<span class="badge badge-warning">10</span>
+				                            	</a>
+				                        </li>
+				                        
+				             </ul>
+				</li>
+				<li>
+					<a class="" href="javascript:;">
+					<i class="fa fa-area-chart "></i> 
+					<span class="title">统计分析</span>
+					<span class="arrow "></span>
+					</a>
+				</li>					
+				<li>
+					<a class="" href="javascript:;">
+					<i class="fa fa-cogs"></i> 
+					<span class="title">平台设置</span>
+					<span class="arrow "></span>
+					</a>
+					
+				</li>				
+					
+
+			</ul>
+			<!-- END SIDEBAR MENU -->
+		</div>
+		<!-- END SIDEBAR -->
+		<!-- BEGIN PAGE -->
+		<div class="page-content">
+			<!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->               
+			<div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+							<h4 class="modal-title">Modal title</h4>
+						</div>
+						<div class="modal-body">
+							Widget settings form goes here
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn blue">Save changes</button>
+							<button type="button" class="btn default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+					<!-- /.modal-content -->
+				</div>
+				<!-- /.modal-dialog -->
+			</div>
+			<!-- /.modal -->
+			<!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+			<!-- BEGIN STYLE CUSTOMIZER -->
+			<div class="theme-panel hidden-xs hidden-sm">
+				<div class="toggler"></div>
+				<div class="toggler-close"></div>
+				<div class="theme-options">
+					<div class="theme-option theme-colors clearfix">
+						<span>主题颜色</span>
+						<ul>
+							<li class="color-black current color-default" data-style="default"></li>
+							<li class="color-blue" data-style="blue"></li>
+							<li class="color-brown" data-style="brown"></li>
+							<li class="color-purple" data-style="purple"></li>
+							<li class="color-grey" data-style="grey"></li>
+							<li class="color-white color-light" data-style="light"></li>
+						</ul>
+					</div>
+					<div class="theme-option">
+						<span>布局</span>
+						<select class="layout-option form-control input-small">
+							<option value="fluid" selected="selected">不固定模式</option>
+							<option value="boxed">盒子模型</option>
+						</select>
+					</div>
+					<div class="theme-option">
+						<span>头部</span>
+						<select class="header-option form-control input-small">
+							<option value="fixed" selected="selected">固定</option>
+							<option value="default">默认</option>
+						</select>
+					</div>
+					<div class="theme-option">
+						<span>侧边栏</span>
+						<select class="sidebar-option form-control input-small">
+							<option selected="selected" value="fixed">默认</option>
+							<option value="default">固定</option>
+						</select>
+					</div>
+				   	<div class="theme-option">
+						<span>底部</span>
+						<select class="footer-option form-control input-small">
+							<option value="default">固定</option>
+							<option value="fixed" selected="selected">默认</option>
+						</select>
+					</div>
+				   </div>
+			</div>
+			<!-- END BEGIN STYLE CUSTOMIZER -->  
+			<!-- BEGIN PAGE HEADER-->
+			<div class="row">
+				<div class="col-md-12">
+					<!-- BEGIN PAGE TITLE & BREADCRUMB-->
+					<h3 class="page-title">
+						作业监察<small>Work supervision</small>
+					</h3>
+			                   	 <div class="row" style="background:#F8F8F8 ;height: 40px;">
+				                    	<div class="col-md-12">
+					                        	
+				                        </div>
+			                    	</div>
+				</div>
+				<img src="assets/img/zyjcyd.png" style="margin-left:1%;">
+			</div>
+			</div>
+			<!-- END PAGE HEADER-->
+			<!-- BEGIN DASHBOARD STATS -->
+            
+			
+		<!-- END PAGE -->
+	</div>
+	<!-- END CONTAINER -->
+	<!-- BEGIN FOOTER -->
+    
+    
+                                       
+	<div class="footer">
+		<div class="footer-inner">
+			2015 &copy; 青岛董家口经济区
+		</div>
+		<div class="footer-tools">
+			<span class="go-top">
+			<i class="fa fa-angle-up"></i>
+			</span>
+		</div>
+	</div>
+	<!-- END FOOTER -->
+	<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+	<!-- BEGIN CORE PLUGINS -->   
+	<!--[if lt IE 9]>
+	<script src="assets/plugins/respond.min.js"></script>
+	<script src="assets/plugins/excanvas.min.js"></script> 
+	<![endif]-->   
+	<script src="assets/plugins/jquery-1.10.2.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>     
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap2-typeahead.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js" type="text/javascript" ></script>
+	<script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>  
+	<script src="assets/plugins/jquery.cookie.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/uniform/jquery.uniform.min.js" type="text/javascript" ></script>
+	<!-- END CORE PLUGINS -->
+	<!-- BEGIN PAGE LEVEL PLUGINS -->
+	<script type="text/javascript" src="assets/plugins/fuelux/js/spinner.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/ckeditor/ckeditor.js"></script>  
+	<script type="text/javascript" src="assets/plugins/bootstrap-fileupload/bootstrap-fileupload.js"></script>
+	<script type="text/javascript" src="assets/plugins/select2/select2.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/bootstrap-wysihtml5/wysihtml5-0.3.0.js"></script> 
+	<script type="text/javascript" src="assets/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.js"></script>
+	<script type="text/javascript" src="assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+	<script type="text/javascript" src="assets/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+	<script type="text/javascript" src="assets/plugins/clockface/js/clockface.js"></script>
+	<script type="text/javascript" src="assets/plugins/bootstrap-daterangepicker/moment.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/bootstrap-daterangepicker/daterangepicker.js"></script> 
+	<script type="text/javascript" src="assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>  
+	<script type="text/javascript" src="assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+	<script type="text/javascript" src="assets/plugins/jquery-inputmask/jquery.inputmask.bundle.min.js"></script>   
+	<script type="text/javascript" src="assets/plugins/jquery.input-ip-address-control-1.0.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/jquery-multi-select/js/jquery.multi-select.js"></script>
+	<script type="text/javascript" src="assets/plugins/jquery-multi-select/js/jquery.quicksearch.js"></script>   
+	<script src="assets/plugins/jquery.pwstrength.bootstrap/src/pwstrength.js" type="text/javascript" ></script>
+	<script src="assets/plugins/bootstrap-switch/static/js/bootstrap-switch.min.js" type="text/javascript" ></script>
+	<script src="assets/plugins/jquery-tags-input/jquery.tagsinput.min.js" type="text/javascript" ></script>
+	<script src="assets/plugins/bootstrap-markdown/js/bootstrap-markdown.js" type="text/javascript" ></script>
+	<script src="assets/plugins/bootstrap-markdown/lib/markdown.js" type="text/javascript" ></script>
+	<script src="assets/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js" type="text/javascript" ></script>
+	<script src="assets/plugins/bootstrap-touchspin/bootstrap.touchspin.js" type="text/javascript" ></script>
+	<!-- END PAGE LEVEL PLUGINS -->
+    <script src="assets/plugins/bootstrap-modal/js/bootstrap-modalmanager.js" type="text/javascript" ></script>
+	<script src="assets/plugins/bootstrap-modal/js/bootstrap-modal.js" type="text/javascript" ></script>
+	<!-- BEGIN PAGE LEVEL SCRIPTS -->
+	<script src="assets/scripts/app.js"></script>
+	<script src="assets/scripts/form-components.js"></script> 
+    <script src="assets/scripts/ui-extended-modals.js"></script>  
+    <script src="workboots.js"></script>   
+	<!-- END PAGE LEVEL SCRIPTS -->
+	<script>
+		jQuery(document).ready(function() {       
+		   // initiate layout and plugins
+		   App.init();
+		   FormComponents.init();
+		});
+	</script>
+	<!-- BEGIN GOOGLE RECAPTCHA -->
+	<script type="text/javascript">
+		var RecaptchaOptions = {
+		   theme : 'custom',
+		   custom_theme_widget: 'recaptcha_widget'
+		};
+	</script>
+    
+</body>
+<!-- END BODY -->
+</html>

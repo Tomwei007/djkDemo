@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<!-- 
+Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.0.2
+Version: 1.5.4
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+	<meta charset="utf-8" />
+	<title>安全环保应急监管平台</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+	<meta name="MobileOptimized" content="320">
+	<!-- BEGIN GLOBAL MANDATORY STYLES -->          
+	<link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+	<!-- END GLOBAL MANDATORY STYLES -->
+	<!-- BEGIN PAGE LEVEL PLUGIN STYLES --> 
+	<link href="assets/plugins/gritter/css/jquery.gritter.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />
+	<link href="assets/plugins/fullcalendar/fullcalendar/fullcalendar.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/jqvmap/jqvmap/jqvmap.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css"/>
+	<!-- END PAGE LEVEL PLUGIN STYLES -->
+	<!-- BEGIN THEME STYLES --> 
+	<link href="assets/css/style-metronic.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/css/plugins.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/css/pages/tasks.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+	<link href="assets/css/custom.css" rel="stylesheet" type="text/css"/>
+	<!-- END THEME STYLES -->
+    	<link rel="stylesheet" type="text/css" href="assets/plugins/select2/select2_metro.css" />
+	<link rel="stylesheet" href="assets/plugins/data-tables/DT_bootstrap.css" />
+    	<link href="assets/plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css" rel="stylesheet" type="text/css"/>
+	<link href="assets/plugins/bootstrap-modal/css/bootstrap-modal.css" rel="stylesheet" type="text/css"/>
+    	<link href="assets/djkcss/yhpc-aqxj-zgtzdxf.css" rel="stylesheet" type="text/css"/>
+    
+	<link rel="shortcut icon" href="assets/img/logo-m.png" />
+    
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="page-header-fixed page-sidebar-fixed ">
+	<!-- BEGIN HEADER -->   
+	<div class="header navbar navbar-inverse navbar-fixed-top">
+		<!-- BEGIN TOP NAVIGATION BAR -->
+		<div class="header-inner">
+			<!-- BEGIN LOGO -->  
+			<a class="navbar-brand" href=" ">
+            <img src="assets/img/logo_1.png" alt="logo" class="img-responsive" /><img src="assets/img/logo_3.png" alt="logo" class="img-responsive1" /></a><a class="navbar-brand" href=" "></a><a class="navbar-brand" href=" ">
+            <!-- END LOGO -->
+			<!-- BEGIN RESPONSIVE MENU TOGGLER --> 
+			<a href="javascript:;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<img src="assets/img/menu-toggler.png" alt="" />
+			</a> 
+			<!-- END RESPONSIVE MENU TOGGLER -->
+			<!-- BEGIN TOP NAVIGATION MENU -->
+			<ul class="nav navbar-nav pull-right">
+				<!-- BEGIN NOTIFICATION DROPDOWN -->
+				<li class="dropdown" id="header_notification_bar">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"data-close-others="true">
+						<i class="fa fa-bell"></i>
+						<span class="badge">6</span>
+					</a>
+					<ul class="dropdown-menu extended notification">
+						<li>
+							<p>您有14项新通知/消息</p>
+						</li>
+						<li>
+							<ul class="dropdown-menu-list scroller" style="height: 250px;">
+								<li>  
+									<a href="#">
+									<span class="label label-sm label-icon label-success"><i class="fa fa-plus"></i></span>
+									新的隐患排查巡检计划制定. 
+									<span class="time">刚刚</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="label label-sm label-icon label-danger"><i class="fa fa-bolt"></i></span>
+									青钢 #12 容器压力预警. 
+									<span class="time">15 分钟</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="label label-sm label-icon label-warning"><i class="fa fa-bell-o"></i></span>
+									青钢 #2 容器压力异常.
+									<span class="time">22 分钟</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="label label-sm label-icon label-info"><i class="fa fa-bullhorn"></i></span>
+									青钢 网络负载过载.
+									<span class="time">40 分钟</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="label label-sm label-icon label-info"><i class="fa fa-bolt"></i></span>
+									海晶监测数据恢复 68%. 
+									<span class="time">2 小时</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="label label-sm label-icon label-danger"><i class="fa fa-bolt"></i></span>
+									海晶监测数据接收错误.
+									<span class="time">5 小时</span>
+									</a>
+								</li>
+								
+							</ul>
+						</li>
+						<li class="external">   
+							<a href="#">查看所有的通知/消息 <i class="m-icon-swapright"></i></a>
+						</li>
+					</ul>
+				</li>
+				<!-- END NOTIFICATION DROPDOWN -->
+
+				<!-- BEGIN TODO DROPDOWN -->
+				<li class="dropdown" id="header_task_bar">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+					<i class="fa fa-tasks"></i>
+					<span class="badge">5</span>
+					</a>
+					<ul class="dropdown-menu extended tasks">
+						<li>
+							<p>您有12项正在进行的任务</p>
+						</li>
+						<li>
+							<ul class="dropdown-menu-list scroller" style="height: 250px;">
+								<li>  
+									<a href="#">
+									<span class="task">
+									<span class="desc">DJK-YHPC-00000002整改工程</span>
+									<span class="percent">30%</span>
+									</span>
+									<span class="progress">
+									<span style="width: 40%;" class="progress-bar progress-bar-success" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only">40% Complete</span>
+									</span>
+									</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="task">
+									<span class="desc">安全生产许可证检查活动</span>
+									<span class="percent">65%</span>
+									</span>
+									<span class="progress progress-striped">
+									<span style="width: 65%;" class="progress-bar progress-bar-danger" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only">65% Complete</span>
+									</span>
+									</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="task">
+									<span class="desc">下发压力容器整改</span>
+									<span class="percent">98%</span>
+									</span>
+									<span class="progress">
+									<span style="width: 98%;" class="progress-bar progress-bar-success" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only">98% Complete</span>
+									</span>
+									</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="task">
+									<span class="desc">DJK-YHPC-00000001整改验收</span>
+									<span class="percent">10%</span>
+									</span>
+									<span class="progress progress-striped">
+									<span style="width: 10%;" class="progress-bar progress-bar-warning" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only">10% Complete</span>
+									</span>
+									</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="task">
+									<span class="desc">青钢3高线现场检查</span>
+									<span class="percent">58%</span>
+									</span>
+									<span class="progress progress-striped">
+									<span style="width: 58%;" class="progress-bar progress-bar-info" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only">58% Complete</span>
+									</span>
+									</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="task">
+									<span class="desc">压力管道巡检</span>
+									<span class="percent">85%</span>
+									</span>
+									<span class="progress progress-striped">
+									<span style="width: 85%;" class="progress-bar progress-bar-success" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only">85% Complete</span>
+									</span>
+									</span>
+									</a>
+								</li>
+								<li>  
+									<a href="#">
+									<span class="task">
+									<span class="desc">压力容器定期巡检</span>
+									<span class="percent">18%</span>
+									</span>
+									<span class="progress progress-striped">
+									<span style="width: 18%;" class="progress-bar progress-bar-important" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">
+									<span class="sr-only">18% Complete</span>
+									</span>
+									</span>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="external">   
+							<a href="#">查看所有任务 <i class="m-icon-swapright"></i></a>
+						</li>
+					</ul>
+				</li>
+				<!-- END TODO DROPDOWN -->
+				<!-- BEGIN USER LOGIN DROPDOWN -->
+				<li class="dropdown user">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+					<img alt="" src="assets/img/avatar1_small.jpg"/>
+					<span class="username">张万里</span>
+					<i class="fa fa-angle-down"></i>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="extra_profile.html"><i class="fa fa-user"></i> 我的资料</a></li>
+						<li><a href="page_calendar.html"><i class="fa fa-calendar"></i> 我的日程</a></li>
+						<li><a href="inbox.html"><i class="fa fa-bell"></i>我的消息 <span class="badge badge-danger">3</span></a></li>
+						<li><a href="#"><i class="fa fa-tasks"></i> 我的任务 <span class="badge badge-success">7</span></a></li>
+						<li class="divider"></li>
+						<li><a href="javascript:;" id="trigger_fullscreen"><i class="fa fa-arrows-alt"></i> 全屏</a></li>
+						<li><a href="extra_lock.html"><i class="fa fa-lock"></i> 锁屏</a></li>
+						<li><a href="login.html"><i class="fa fa-key"></i> 注销</a></li>
+					</ul>
+				</li>
+				<!-- END USER LOGIN DROPDOWN -->
+		  </ul>
+			<!-- END TOP NAVIGATION MENU -->
+	  </div>
+		<!-- END TOP NAVIGATION BAR -->
+	</div>
+	<!-- END HEADER -->
+	<div class="clearfix"></div>
+	<!-- BEGIN CONTAINER -->
+	<div class="page-container">
+		<!-- BEGIN SIDEBAR -->
+		<div class="page-sidebar navbar-collapse collapse ">
+			<!-- BEGIN SIDEBAR MENU -->        
+			<ul class="page-sidebar-menu">
+				<li>
+					<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+					<div class="sidebar-toggler hidden-phone"></div>
+					<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+				</li>
+				<li>
+					<!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
+					<form class="sidebar-search" action="extra_search.html" method="POST">
+						<div class="form-container">
+							<div class="input-box">
+								<a href="javascript:;" class="remove"></a>
+								<input type="text" placeholder="搜索..."/>
+								<input type="button" class="submit" value=" "/>
+							</div>
+						</div>
+					</form>
+					<!-- END RESPONSIVE QUICK SEARCH FORM -->
+				</li>
+				
+				<li>
+					<a class="active" href="javascript:;">
+					<i class="fa fa-tachometer"></i> 
+					<span class="title">个人中心</span>
+					<span class="arrow "></span>
+					</a>
+					
+				</li>	
+				<li>
+					<a class="active" href="javascript:;">
+					<i class="fa fa-hospital-o"></i> 
+					<span class="title">一企一档</span>
+					<span class="arrow "></span>
+					</a>
+				</li>
+				<li class="">
+					<a class="active" href="javascript:;">
+					<i class="fa fa-file-excel-o"></i> 
+					<span class="title">公文管理</span>
+					<span class="arrow "></span>
+					</a>
+					
+				</li>					
+				<li class="open start active ">
+					<a class="active" href="javascript:;">
+					<i class="fa fa-calendar-check-o"></i> 
+					<span class="title">隐患排查</span>
+					<span class="arrow  open"></span>
+					</a>
+					<ul style="display: block;" class="sub-menu">
+						<li class="open">
+							<a href="javascript:;">
+							<i class="fa fa-stethoscope"></i> 
+							安全巡检
+							<span class="arrow open"></span>
+							</a>
+							<ul style="display: block;" class="sub-menu">
+								<li class=""><a href="#">巡检计划制定</a></li>
+								<li ><a href="#">巡检计划执行</a></li>
+								<li><a href="#"> 巡检计划列表</a></li>
+								<li><a href="#">隐患列表</a></li>
+								<li><a href="#">巡检通知单列表</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;"><i class="fa fa-wrench "></i>
+							隐患整改
+							<span class="arrow"></span>
+							</a>
+							<ul class="sub-menu">
+								<li><a href="#">下达整改</a></li>
+								<li><a href="#">整改上报</a></li>
+								<li><a href="#">整改通知单列表</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-gavel"></i>
+							复查/验收
+							</a>
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<a class="active" href="javascript:;">
+					<i class="fa fa-eye"></i> 
+					<span class="title">作业监察</span>
+					<span class="arrow "></span>
+					</a>
+				</li>		
+				<li>
+					<a class="active" href="javascript:;">
+					<i class="fa fa-magic"></i> 
+					<span class="title">应急指挥</span>
+					<span class="arrow "></span>
+					</a>
+				</li>
+				<li>
+					<a class="active" href="javascript:;">
+					<i class="fa fa-exclamation-triangle"></i> 
+					<span class="title">危险源监测</span>
+					<span class="arrow "></span>
+					</a>
+				</li>
+				<li>
+					<a class="active" href="javascript:;">
+					<i class="fa fa-area-chart "></i> 
+					<span class="title">统计分析</span>
+					<span class="arrow "></span>
+					</a>
+				</li>					
+				<li>
+					<a class="active" href="javascript:;">
+					<i class="fa fa-cogs"></i> 
+					<span class="title">平台设置</span>
+					<span class="arrow "></span>
+					</a>
+					
+				</li>				
+					
+
+			</ul>
+			<!-- END SIDEBAR MENU -->
+		</div>
+		<!-- END SIDEBAR -->
+		</div>
+		<!-- END SIDEBAR -->
+		<!-- BEGIN PAGE -->
+		<div class="page-content">
+			<!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->               
+			<div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+							<h4 class="modal-title">Modal title</h4>
+						</div>
+						<div class="modal-body">
+							Widget settings form goes here
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn blue">Save changes</button>
+							<button type="button" class="btn default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+					<!-- /.modal-content -->
+				</div>
+				<!-- /.modal-dialog -->
+			</div>
+			<!-- /.modal -->
+			<!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+			<!-- BEGIN STYLE CUSTOMIZER -->
+			<div class="theme-panel hidden-xs hidden-sm">
+				<div class="toggler"></div>
+				<div class="toggler-close"></div>
+				<div class="theme-options">
+					<div class="theme-option theme-colors clearfix">
+						<span>主题颜色</span>
+						<ul>
+							<li class="color-black current color-default" data-style="default"></li>
+							<li class="color-blue" data-style="blue"></li>
+							<li class="color-brown" data-style="brown"></li>
+							<li class="color-purple" data-style="purple"></li>
+							<li class="color-grey" data-style="grey"></li>
+							<li class="color-white color-light" data-style="light"></li>
+						</ul>
+					</div>
+					<div class="theme-option">
+						<span>布局</span>
+						<select class="layout-option form-control input-small">
+							<option value="fluid" selected="selected">不固定模式</option>
+							<option value="boxed">盒子模型</option>
+						</select>
+					</div>
+					<div class="theme-option">
+						<span>头部</span>
+						<select class="header-option form-control input-small">
+							<option value="fixed" selected="selected">固定</option>
+							<option value="default">默认</option>
+						</select>
+					</div>
+					<div class="theme-option">
+						<span>侧边栏</span>
+						<select class="sidebar-option form-control input-small">
+							<option value="fixed">固定</option>
+							<option value="default" selected="selected">默认</option>
+						</select>
+					</div>
+
+				   <div class="theme-option">
+						<span>底部</span>
+						<select class="footer-option form-control input-small">
+							<option value="default">默认</option>
+							<option value="fixed" selected="selected">固定</option>
+						</select>
+					</div>
+				   </div>
+			</div>
+			<!-- END BEGIN STYLE CUSTOMIZER -->  
+			<!-- BEGIN PAGE HEADER-->
+			<div class="row">
+				<div class="col-md-12">
+					<!-- BEGIN PAGE TITLE & BREADCRUMB-->
+					<h3 class="page-title">
+						整改通报<small> potential safety hazard checking</small>
+					</h3>
+                     <div class="row" style="background:#F8F8F8 ;height: 40px;">
+                    	<div class="col-md-12">
+                        	<div class="clearfix pull-right" style="margin-top: 3px;">
+                        		<a href="#" class="btn btn-sm yellow"><i class="fa fa-reply-all"></i> 下发通知单 </a>
+                                <a href="#" class="btn btn-sm purple"><i class="fa fa-file-o"></i> 保存 </a>
+								
+                                
+                                <a href="#responsive" class="btn btn-sm green" data-toggle="modal"><i class="fa fa-print"></i> 打印</a>
+                                <a href="#" class="btn btn-sm red"><i class="fa fa-trash"></i> 删除</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row ck-box">
+                    	<div class="col-md-12">
+                              <div class="row">
+                                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                      <div class="tabstat">
+                                          <div class="visual">
+                                             <img src="assets/img/canvas.png">
+                                          </div>
+                                          <div class="details">
+                                              <div class="number">
+                                                  <input type="text"  placeholder="请输入标题..." class="form-control " >
+                                              </div>
+                                              <div class="desc" >                            
+                                                  整改不合格通知单流水号：DJKAJZX-20150928000023  
+                                              </div>
+                                           </div>                 
+                                      </div>
+                                  </div>
+                              </div>
+                              <hr>
+                              <div class="row">
+                              	<div class="col-md-12">
+                                	<h3 class="form-section">上报/通知内容：</h3>
+                                    <textarea class="form-control" rows="4"></textarea>
+                                </div>
+                              </div>  
+                              <div class="row">
+                              	<div class="col-lg-12">
+                                	<div class="zg-content">
+                                    	<div class="row">
+                                            <div class="col-md-6">
+                                               <div style="font-weight:bolder">整改通知单名称：压力容器安全附件校验整改</div>
+                                               <div>整改通知单流水号：DJK-AJZX-20150928000023</div>
+                                               <div>整改责任人：杨红旗/DJK-QDHJ-00012</div>
+                                               <div>整改单位：00012-青岛海晶化工集团有限公司</div>
+                                               <div>整改期限：2015-09-30</div>
+                                                
+                                            </div>
+                                            
+                                            <div class="col-md-6">
+                                                <div>&nbsp;</div>
+                                                <div>下达人：张万里/安全检查员/DJK-AJZX-007</div>
+                                                <div>下达时间：2015-09-28 12:30</div>
+                                                <div>整改性质：挂牌整改</div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="table-responsive">
+                                                    <table class="table table-condensed table-hover">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>#</th>
+                                                                <th>隐患/问题描述</th>
+                                                                <th>巡检项目</th>
+                                                                <th >检查标准</th>
+                                                                
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>1</td>
+                                                                <td>爆破片超过规定使用期限，且存在安装错误与标准</td>
+                                                                <td>0001-压力容器</td>
+                                                                <td >《特种设备安全检察条例》（中华人民共和国国务院令第549号）第二十七条；</td>
+                                                                
+                                                            </tr>
+                                                            <tr>
+                                                                <td>2</td>
+                                                                <td>使用未经定期检验或者检验不合格的特种设备</td>
+                                                                <td>0002-压力管道</td>
+                                                                <td >《特种设备安全检察条例》（中华人民共和国国务院令第549号）第二十八条</td>
+                                                                
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>危险化学品生产装臵和存储危险化学品数量构成重大危险源<br>的存储设施的存储设施与周边特定设施距离不符合规定</td>
+                                                                <td>0003-危险源安全距离</td>
+                                                                <td >《危险化学品安全管理条例》 第10条</td>
+                                                                
+                                                            </tr>
+                                                            <tr>
+                                                                <td>4</td>
+                                                                <td>顶部最高操作压力大于等于0.1MPa的压力容器未设有安全阀</td>
+                                                                <td>0004-泄压装臵 </td>
+                                                                <td >GB50160-2008 第5.5.1条 第5.5.6条 第5.5.13条</td>
+                                                                
+                                                            </tr>
+                                                            <tr>
+                                                                <td>5</td>
+                                                                <td>使用国家明令淘汰、禁止使用的危及生产安全的设备</td>
+                                                                <td>0005-消防安全</td>
+                                                                <td >《安全生产法》 第31条</td>
+                                                                
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 class="form-section">整改要求：</h4>
+                                                <div>
+                                                    <p>
+                                                    	参照国家相关标准与规定，横向展开排查工作，确保发现问题消缺。<br>
+                                                        1、在接到本通知后，公司及时召开安全专门会议，并根据《通知》精神进行详细部署。在企业范围内进行了全面的安全检查和自查自改工作，并要求各部室、各班组认真做好迎接上级安监部门油库安全检查的准备。<br>
+                                                        2、成立了一企业一把手为组长，公司副总经理为副组长，各部室经理及相关管理人员为成员的油库安全生产自查小组，深入油库各个班组、岗位，认真扎实展开安全自查工作。
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4 class="form-section">历史整改反馈及复查意见：</h4>
+                                                <div class="row">
+                                                    <div col-md-12>
+                                                        <div class="hos">
+                                                            <div>按照整改要求，就发现的问题进行整改</div>
+                                                            <div class="pull-right">
+                                                                 <div class="user-tz">
+                                                                    <span class="userrole">整改执行人：</span><span class="username">宋梦幻/DJK-QDHj-000034</span><br><span class="ustime">整改时间：</span><span class="us-time">2015-09-30 12:00</span>
+                                                                   
+                                                                </div>
+                                                            </div>
+                                                        </div>                   
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div col-md-12>
+                                                        <div class="hos">
+                                                            <div>问题整改不彻底，遗漏安全隐患。3#压力容器安全阀未安装。重大危险源距离不符合标准。隐患升级，建议重点整改。</div>
+                                                            <div class="pull-right">
+                                                                 <div class="user-tz">
+                                                                     <span class="userrole">复查执行人：</span><span class="username">张万里/安全检查员/DJK-AJZX-007</span><br><span class="ustime">复查时间：</span><span class="us-time">2015-09-30 14:00</span>
+                                                                   
+                                                                </div>
+                                                            </div>
+                                                        </div>                   
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div col-md-12>
+                                                        <div class="hos">
+                                                            <div>按照整改要求，就发现的问题进行整改</div>
+                                                            <div class="pull-right">
+                                                                <div class="user-tz">
+                                                                     <span class="userrole">整改执行人：</span><span class="username">宋梦幻/DJK-QDHJ-000034</span><br><span class="ustime">整改时间：</span><span class="us-time">2015-10-3 12:00</span>
+                                                                   
+                                                                </div>
+                                                            </div>
+                                                        </div>                   
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div col-md-12>
+                                                        <div class="hos">
+                                                            <div>问题整改不彻底，遗漏安全隐患。重大危险源距离不符合标准。重点整改未能达到标准，建议挂牌整改</div>
+                                                            <div class="pull-right">
+                                                                <div class="user-tz">
+                                                                    <span class="userrole">复查执行人：</span><span class="username">张万里/安全检查员/DJK-AJZX-007</span><br><span class="ustime">复查时间：</span><span class="us-time">2015-10-3 14:00</span>
+                                                                   
+                                                                </div>
+                                                                
+                                                            </div>
+                                                        </div>                   
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div> 
+                        	
+                        </div>
+                    </div>
+		<!-- END PAGE TITLE & BREADCRUMB-->
+                    
+                    
+                    <div class="row">
+                    	<div class="col-md-12">
+                        	
+                            <!-- /.modal -->
+							<div id="responsive" class="modal fade" tabindex="-1" data-width="830">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+									<h4 class="modal-title">打印阅览</h4>
+								</div>
+								<div class="modal-body">
+									<div class="row" >
+										<div class="col-lg-12 col-md-12">
+                                        	<div class="print">
+                                        		<img src="assets/img/zgtb.png">
+                                            </div>
+                                        </div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button type="button" data-dismiss="modal" class="btn btn-default">取消</button>
+									<button type="button" class="btn blue">打印</button>
+								</div>
+							</div>
+                           <!--.modal end-->                             
+                        </div>
+                    </div>
+                    
+                    <!--弹出框结束-->
+				</div>
+			</div>
+			<!-- END PAGE HEADER-->
+			<!-- BEGIN DASHBOARD STATS -->
+            
+			
+		<!-- END PAGE -->
+	</div>
+	<!-- END CONTAINER -->
+	<!-- BEGIN FOOTER -->
+    
+    
+                       
+	<div class="footer">
+		<div class="footer-inner">
+			2015 &copy; 青岛董家口经济区
+		</div>
+		<div class="footer-tools">
+			<span class="go-top">
+			<i class="fa fa-angle-up"></i>
+			</span>
+		</div>
+	</div>
+	<!-- END FOOTER -->
+	<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+	<!-- BEGIN CORE PLUGINS -->   
+	<!--[if lt IE 9]>
+	<script src="assets/plugins/respond.min.js"></script>
+	<script src="assets/plugins/excanvas.min.js"></script> 
+	<![endif]-->   
+	<script src="assets/plugins/jquery-1.10.2.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>     
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap2-typeahead.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js" type="text/javascript" ></script>
+	<script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>  
+	<script src="assets/plugins/jquery.cookie.min.js" type="text/javascript"></script>
+	<script src="assets/plugins/uniform/jquery.uniform.min.js" type="text/javascript" ></script>
+	<!-- END CORE PLUGINS -->
+	<!-- BEGIN PAGE LEVEL PLUGINS -->
+	<script type="text/javascript" src="assets/plugins/fuelux/js/spinner.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/ckeditor/ckeditor.js"></script>  
+	<script type="text/javascript" src="assets/plugins/bootstrap-fileupload/bootstrap-fileupload.js"></script>
+	<script type="text/javascript" src="assets/plugins/select2/select2.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/bootstrap-wysihtml5/wysihtml5-0.3.0.js"></script> 
+	<script type="text/javascript" src="assets/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.js"></script>
+	<script type="text/javascript" src="assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+	<script type="text/javascript" src="assets/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+	<script type="text/javascript" src="assets/plugins/clockface/js/clockface.js"></script>
+	<script type="text/javascript" src="assets/plugins/bootstrap-daterangepicker/moment.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/bootstrap-daterangepicker/daterangepicker.js"></script> 
+	<script type="text/javascript" src="assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>  
+	<script type="text/javascript" src="assets/plugins/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+	<script type="text/javascript" src="assets/plugins/jquery-inputmask/jquery.inputmask.bundle.min.js"></script>   
+	<script type="text/javascript" src="assets/plugins/jquery.input-ip-address-control-1.0.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/jquery-multi-select/js/jquery.multi-select.js"></script>
+	<script type="text/javascript" src="assets/plugins/jquery-multi-select/js/jquery.quicksearch.js"></script>   
+	<script src="assets/plugins/jquery.pwstrength.bootstrap/src/pwstrength.js" type="text/javascript" ></script>
+	<script src="assets/plugins/bootstrap-switch/static/js/bootstrap-switch.min.js" type="text/javascript" ></script>
+	<script src="assets/plugins/jquery-tags-input/jquery.tagsinput.min.js" type="text/javascript" ></script>
+	<script src="assets/plugins/bootstrap-markdown/js/bootstrap-markdown.js" type="text/javascript" ></script>
+	<script src="assets/plugins/bootstrap-markdown/lib/markdown.js" type="text/javascript" ></script>
+	<script src="assets/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js" type="text/javascript" ></script>
+	<script src="assets/plugins/bootstrap-touchspin/bootstrap.touchspin.js" type="text/javascript" ></script>
+	<!-- END PAGE LEVEL PLUGINS -->
+    <script src="assets/plugins/bootstrap-modal/js/bootstrap-modalmanager.js" type="text/javascript" ></script>
+	<script src="assets/plugins/bootstrap-modal/js/bootstrap-modal.js" type="text/javascript" ></script>
+	<!-- BEGIN PAGE LEVEL SCRIPTS -->
+	<script src="assets/scripts/app.js"></script>
+	<script src="assets/scripts/form-components.js"></script> 
+    <script src="assets/scripts/ui-extended-modals.js"></script>  
+    <script src="assets/djkjs/workboots.js"></script>   
+    <script src="assets/scripts/form-samples.js"></script>
+	<!-- END PAGE LEVEL SCRIPTS -->
+	<script>
+		jQuery(document).ready(function() {       
+		   // initiate layout and plugins
+		   App.init();
+		   FormComponents.init();
+		   FormSamples.init();
+		});
+	</script>
+	<!-- BEGIN GOOGLE RECAPTCHA -->
+	<script type="text/javascript">
+		var RecaptchaOptions = {
+		   theme : 'custom',
+		   custom_theme_widget: 'recaptcha_widget'
+		};
+	</script>
+    
+</body>
+<!-- END BODY -->
+</html>
